@@ -124,39 +124,39 @@ function renderStockChart(range = '1y') {
   const newsPlugin = {
     id: 'newsMarkers',
     afterDraw(chart) {
-      const { ctx: c, chartArea: { left, right }, scales: { x, y } } = chart;
-      const timeScale = chart.scales.x;
+      const ctx = chart.ctx;
+      const chartArea = chart.chartArea;
+      if (!chartArea) return; // Guard: skip if Chart.js hasn't computed layout yet
+
+      const { left, right } = chartArea;
+      const xScale = chart.scales.x;
 
       newsAnnotations.forEach(event => {
         const eventDate = new Date(event.date);
-        const xPixel = timeScale.getPixelForValue(eventDate);
+        const xPixel = xScale.getPixelForValue(eventDate);
 
         if (xPixel >= left && xPixel <= right) {
-          c.save();
-          c.strokeStyle = event.color;
-          c.lineWidth = 1.5;
-          c.setLineDash([4, 4]);
-          c.globalAlpha = 0.7;
-          c.beginPath();
-          c.moveTo(xPixel, chartArea.top || y.top);
-          c.lineTo(xPixel, chartArea.bottom || y.bottom);
-          c.stroke();
+          ctx.save();
+          ctx.strokeStyle = event.color;
+          ctx.lineWidth = 1.5;
+          ctx.setLineDash([4, 4]);
+          ctx.globalAlpha = 0.7;
+          ctx.beginPath();
+          ctx.moveTo(xPixel, chartArea.top);
+          ctx.lineTo(xPixel, chartArea.bottom);
+          ctx.stroke();
 
-          // Draw dot at top
-          c.setLineDash([]);
-          c.globalAlpha = 1;
-          c.fillStyle = event.color;
-          c.beginPath();
-          c.arc(xPixel, chartArea.top || y.top, 4, 0, Math.PI * 2);
-          c.fill();
-
-          c.restore();
+          ctx.setLineDash([]);
+          ctx.globalAlpha = 1;
+          ctx.fillStyle = event.color;
+          ctx.beginPath();
+          ctx.arc(xPixel, chartArea.top, 4, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.restore();
         }
       });
     }
   };
-
-  const chartArea = chart.ctx !== undefined ? { top: 40, bottom: ctx.height || 300 } : { top: 40, bottom: 280 };
 
   if (stockChart) stockChart.destroy();
 
@@ -664,7 +664,11 @@ function initStockChartRange() {
       rangeBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const range = btn.dataset.range || '1y';
-      renderStockChart(range);
+      try {
+        renderStockChart(range);
+      } catch (e) {
+        console.error('renderStockChart error:', e);
+      }
     });
   });
 }

@@ -301,12 +301,8 @@
   <script src="js/charts.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      // Render all charts
       if (window.renderAllCharts) renderAllCharts();
-      if (window.renderStockChart) {
-        renderStockChart('1y');
-        initStockChartRange();
-      }
+      if (window.initStockChartRange) initStockChartRange();
       if (window.initScrollAnimations) initScrollAnimations();
     });
   </script>
