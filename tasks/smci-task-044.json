@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-044",
+  "projectId": "smci-research-website",
+  "title": "Section 4 — 12-Month Projection page",
+  "description": "Build projection.html. Bull/base/bear scenarios based on data in data/analyst.json and data/financials.json.",
+  "status": "done",
+  "priority": "high",
+  "assignedAgent": "Spock",
+  "assignedTo": null,
+  "artifacts": ["data/analyst.json", "data/financials.json"],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:14:00Z",
+  "dueDate": null,
+  "tags": ["content", "projection", "financial-model", "html", "javascript"]
+}

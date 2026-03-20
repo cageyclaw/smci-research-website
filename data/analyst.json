@@ -1,0 +1,139 @@
+{
+  "analyst_coverage": {
+    "number_of_analysts": 16,
+    "as_of_date": "2026-03-19",
+    "consensus_rating": "Hold",
+    "sources": ["StockAnalysis.com", "MarketBeat", "Public.com", "Tickernerd", "Finviz"]
+  },
+  "ratings_breakdown": {
+    "buy_rating_count": 6,
+    "hold_rating_count": 8,
+    "sell_rating_count": 2,
+    "buy_percent": 37.5,
+    "hold_percent": 50.0,
+    "sell_percent": 12.5,
+    "note": "Based on approximately 16 analysts covering the stock. Breakdown is approximate as analysts may change ratings between updates."
+  },
+  "price_targets": {
+    "average_price_target": 41.44,
+    "median_price_target": 39.50,
+    "high_price_target": 63.00,
+    "low_price_target": 15.00,
+    "consensus_12_month_target": 42.38,
+    "upside_from_current_30.79": "34-38%",
+    "sources": ["StockAnalysis.com", "Public.com", "MarketBeat", "Tickernerd"]
+  },
+  "individual_analyst_targets": [
+    {
+      "firm": "Average (consensus)",
+      "rating": "Hold",
+      "price_target": 41.44
+    },
+    {
+      "firm": "Median",
+      "rating": "Hold",
+      "price_target": 39.50
+    }
+  ],
+  "rating_history": {
+    "note": "Analyst ratings have shifted following the Q2 FY2026 earnings beat. Key prior ratings events:",
+    "events": [
+      {
+        "period": "Post Q2 FY2026 beat (Feb 2026)",
+        "action": "Multiple analysts likely revised targets upward following $12.68B revenue beat",
+        "prior_consensus": "~$33-36 consensus before beat"
+      },
+      {
+        "period": "EY resignation crisis (Oct 2024)",
+        "action": "Multiple analysts downgraded or suspended coverage following EY resignation and Hindenburg allegations",
+        "prior_consensus": "Previously more bullish with higher price targets"
+      },
+      {
+        "period": "Pre-controversy (mid-2024)",
+        "action": "Many analysts had Buy ratings with $80-120+ price targets before Hindenburg/EY crisis",
+        "note": "Significant derating has occurred"
+      }
+    ]
+  },
+  "consensus_score": {
+    "score": "6.7 / 10",
+    "scale": "1-10",
+    "interpretation": "Cautious Buy / Hold territory",
+    "source": "Tickernerd"
+  },
+  "notable_analyst_views": [
+    {
+      "firm": "Simply Wall St",
+      "view": "Valuation attractive at 21.2x P/E vs fair ratio",
+      "note": "Published Feb 2026"
+    },
+    {
+      "firm": "Seeking Alpha",
+      "view": "High growth but intensifying competition from Dell",
+      "note": "Published Oct 2025"
+    },
+    {
+      "firm": "Yahoo Finance",
+      "view": "Dell cited as beating Supermicro on AI server platform timing and valuation",
+      "note": "Published Nov 2025"
+    }
+  ],
+  "short_selling_metrics": {
+    "short_float_percent": 16.52,
+    "short_interest_shares_millions": 85.08,
+    "shares_outstanding_millions": 485,
+    "days_to_cover": "~5-8 days (approximate)",
+    "put_call_ratio_approximate": ">1.0 (elevated)",
+    "note": "High short interest reflects elevated risk perception following 2024 controversies. Short squeeze potential exists if execution improves."
+  },
+  "institutional_support": {
+    "institutional_ownership_percent": 55.80,
+    "top_known_holders": [
+      {
+        "name": "Vanguard Group",
+        "type": "Index Fund / ETF",
+        "estimated_stake": "~5-7%"
+      },
+      {
+        "name": "BlackRock",
+        "type": "Index Fund / ETF",
+        "estimated_stake": "~4-6%"
+      },
+      {
+        "name": "Charles Liang (Insider)",
+        "type": "CEO / Insider",
+        "estimated_stake": "~12-15% (with Sara Liu)"
+      }
+    ],
+    "note": "Large institutional ownership reflects AI infrastructure thematic exposure through index funds"
+  },
+  "options_market": {
+    "implied_volatility": "Elevated (50-70% range)",
+    "note": "Elevated IV reflects uncertainty around ongoing DOJ/SEC inquiries and margin recovery",
+    "put_premium": "Put options more expensive than usual relative to calls",
+    "speculative_activity": "Notable options volume on earnings dates"
+  },
+  "investment_thesis_summary": {
+    "bull_case": [
+      "AI infrastructure demand remains secular and massive (hyperscaler capex $100B+)",
+      "NVIDIA/AMD GPU partnerships provide diversified AI exposure",
+      "Manufacturing scale (Campus 3) positions for continued rack-scale wins",
+      "Q2 FY2026 revenue beat demonstrates demand execution capability",
+      "Clean auditor (BDO) could restore confidence if filings remain clean"
+    ],
+    "bear_case": [
+      "DOJ/SEC inquiries remain unresolved — potential criminal/civil liability",
+      "Margin compression may persist as AI server market becomes more competitive",
+      "Dell and HPE gaining ground in AI server market",
+      "Governance concerns continue to weigh on institutional investor appetite",
+      "Working capital strain during hypergrowth could pressure liquidity"
+    ],
+    "key_watch_items": [
+      "Any DOJ/SEC resolution announcement",
+      "Gross margin recovery signal in upcoming quarters",
+      "FY2026 revenue tracking vs. ≥$40B guidance",
+      "New auditor (BDO) opinion on FY2026 financials",
+      "Campus 3 construction progress and capacity ramp"
+    ]
+  }
+}

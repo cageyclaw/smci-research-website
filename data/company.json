@@ -1,0 +1,173 @@
+{
+  "name": "Super Micro Computer, Inc.",
+  "ticker": "SMCI",
+  "exchange": "NASDAQ",
+  "ceo": "Charles Liang",
+  "founded": 1993,
+  "ipo": "2007-03-29",
+  "headquarters": {
+    "city": "San Jose",
+    "state": "California",
+    "country": "USA",
+    "region": "Silicon Valley"
+  },
+  "description": "Super Micro Computer, Inc. (Supermicro) is a Silicon Valley-based Total IT Solution Provider specializing in AI, Cloud, Storage, and 5G/Edge server infrastructure. The company designs, develops, manufactures, and sells energy-efficient, application-optimized server solutions based on x86 architecture, including rack mount servers, blade servers, GPU servers, storage systems, and networking equipment.",
+  "leadership": [
+    {
+      "name": "Charles Liang",
+      "title": "President, Chief Executive Officer & Chairman of the Board",
+      "bio": "Born 1956 in Taiwan, Charles Liang is a Taiwanese-American electrical engineer and billionaire entrepreneur. He founded Supermicro in 1993 (then named Supermicro Computer, Inc.) and has served as President, CEO, and Chairman since inception. He developed his server system architecture expertise during his tenure at Chips and Technologies (1987-1991) before founding Supermicro. He holds degrees from National Taiwan University and the University of Texas at Austin.",
+      "ownership": "Co-founder, insider"
+    },
+    {
+      "name": "Sara Liu",
+      "title": "Co-Founder & Senior Advisor",
+      "bio": "Sara Liu co-founded Supermicro with Charles Liang in 1993. She previously served in senior executive roles including Chief Integration Officer. She is a member of the company's founding team that built Supermicro from a startup into a global server platform company.",
+      "ownership": "Co-founder, insider"
+    },
+    {
+      "name": "Kenneth Cheung",
+      "title": "Chief Administrative Officer",
+      "bio": "Kenneth Cheung serves as Chief Administrative Officer of Supermicro, overseeing administrative functions, facilities, and manufacturing operations. He plays a key role in the company's global manufacturing expansion initiatives.",
+      "ownership": "Insider/executive"
+    }
+  ],
+  "products": [
+    {
+      "category": "AI & HPC Servers",
+      "description": "High-performance computing and AI training/inference servers optimized for data center workloads",
+      "key_series": ["Supermicro AI servers", "HPC systems", "Hyperworks"]
+    },
+    {
+      "category": "GPU Servers",
+      "description": "GPU-accelerated server systems for AI, ML, deep learning, and high-performance graphics workloads",
+      "key_series": ["NVIDIA HGX systems", "NVIDIA DGX systems", "AMD Instinct based systems", "Blackwell-based systems (B200, B300, GB200 NVL72)"]
+    },
+    {
+      "category": "Storage Solutions",
+      "description": "Enterprise-grade storage systems including all-flash arrays, hybrid storage, and software-defined storage",
+      "key_series": ["Petascale JBOF", "Flash systems", "NVMe solutions"]
+    },
+    {
+      "category": "Networking",
+      "description": "Networking infrastructure including switches, adapters, and interconnect solutions for high-speed data center networking",
+      "key_series": ["SMC networking", "100G/200G/400G switching"]
+    },
+    {
+      "category": "Rack-Level Solutions",
+      "description": "Full rack-scale IT solutions with integrated cooling, power, and management",
+      "key_series": ["Total IT Solutions", "Rack-level integrated systems"]
+    }
+  ],
+  "partnerships": [
+    {
+      "partner": "NVIDIA",
+      "tier": "Preferred AI Partner",
+      "products": ["NVIDIA HGX Blackwell (B200, B300, GB200 NVL72)", "NVIDIA DGX systems", "NVIDIA MGX systems", "NVIDIA HGX H100/H200", "NVIDIA Vera Rubin NVL144 (2026)"],
+      "description": "Supermicro is a key NVIDIA AI partner, offering the widest range of NVIDIA GPU-based server systems including early Blackwell architecture deployments. The company collaborates closely with NVIDIA on AI factory solutions."
+    },
+    {
+      "partner": "AMD",
+      "tier": "Strategic",
+      "products": ["AMD Instinct MI350 series", "AMD Instinct MI355X", "AMD ROCm software", "AMD EPYC 9005 processors"],
+      "description": "Supermicro offers liquid-cooled and air-cooled AI solutions based on AMD Instinct MI350 series GPUs, leveraging AMD's CDNA architecture and ROCm software ecosystem. The partnership extends to AMD EPYC server processors."
+    },
+    {
+      "partner": "Intel",
+      "tier": "Strategic",
+      "products": ["Intel Xeon 6 processors (with DDR5 MRDIMMs at 8800 MT/s)", "Intel Data Center GPU ( Ponte Vecchio)", "Intel networking solutions"],
+      "description": "Supermicro systems support Intel Xeon 6 processors (up to 500W TDP) alongside Intel's GPU and networking platforms, offering multi-vendor flexibility."
+    }
+  ],
+  "manufacturing": {
+    "headquarters": "San Jose, California",
+    "facilities": [
+      {
+        "name": "Campus 1 - Headquarters",
+        "location": "San Jose, CA",
+        "description": "Original headquarters and main manufacturing facility"
+      },
+      {
+        "name": "Campus 2",
+        "location": "San Jose, CA",
+        "description": "Additional manufacturing and office space"
+      },
+      {
+        "name": "Campus 3 (Under Development)",
+        "location": "San Jose, CA (East Brokaw Road)",
+        "description": "Major expansion announced February 28, 2025. Initial phase ~333,400 sq ft; total planned footprint nearly 3 million sq ft when completed. Construction began 2025. Expected to significantly expand US manufacturing capacity.",
+        "announced": "2025-02-28"
+      }
+    ],
+    "global_reach": "Manufacturing facilities in Silicon Valley with global supply chain operations",
+    "capacity": {
+      "air_cooled_racks_per_month": 5000,
+      "liquid_cooled_racks_per_month": 2000,
+      "note": "Capacity figures represent combined manufacturing capability across facilities"
+    }
+  },
+  "ownership_structure": {
+    "institutional": 55.8,
+    "insider": 28,
+    "retail": 17,
+    "note": "Approximate breakdown based on 13F filings and available ownership data. Insider stake includes co-founders Charles Liang and Sara Liu."
+  },
+  "certifications": [
+    {
+      "standard": "ISO 14001:2015",
+      "description": "Environmental management system certification",
+      "validity_note": "Certified; validity period referenced in project plan as until March 21, 2026"
+    }
+  ],
+  "auditor": {
+    "current": "BDO USA, LLP",
+    "previous": "Ernst & Young LLP (EY)",
+    "ey_resignation_date": "2024-10-24",
+    "note": "EY resigned citing concerns about internal controls, board independence, and accounting practices. Supermicro disagreed with EY's decision and does not expect matters raised by EY to result in restatement of quarterly reports for FY2024 or prior years."
+  },
+  "controversies": [
+    {
+      "issue": "Ernst & Young Resignation",
+      "date": "2024-10-30",
+      "severity": "Critical",
+      "description": "EY resigned as Supermicro's auditor on October 24, 2024, after raising significant concerns about the company's internal controls, board independence, and accounting practices. Shares dropped ~33% on the news. EY's resignation came two months after Hindenburg Research published a critical short report."
+    },
+    {
+      "issue": "Hindenburg Research Allegations",
+      "date": "2024-08-27",
+      "severity": "High",
+      "description": "Hindenburg Research (now defunct) published a detailed short report alleging 'glaring accounting flags, evidence of undisclosed related party transactions, and fresh evidence of accounting manipulation' at Supermicro. The report claimed Supermicro had engaged in improper revenue recognition and circumvented internal accounting controls."
+    },
+    {
+      "issue": "DOJ & SEC Subpoenas",
+      "date": "2024-09-26",
+      "severity": "High",
+      "description": "The Department of Justice (DOJ) and Securities and Exchange Commission (SEC) subpoenaed Supermicro for documents following the publication of Hindenburg's allegations. The company disclosed these requests in a February 2025 filing. As of March 2026, the status of these inquiries remains unresolved."
+    },
+    {
+      "issue": "Nasdaq Non-Compliance",
+      "severity": "Moderate",
+      "description": "Supermicro received a Nasdaq non-compliance notification in September 2024 due to delayed 10-K and 10-Q filings. The company submitted a compliance plan on November 18, 2024, and regained compliance in February 2025 after filing outstanding reports."
+    },
+    {
+      "issue": "Accounting Leadership Changes",
+      "date": "2024-2025",
+      "severity": "Moderate",
+      "description": "Following EY's resignation, Supermicro underwent significant accounting leadership changes as part of its efforts to address internal control concerns."
+    }
+  ],
+  "key_metrics": {
+    "as_of_date": "2026-03-19",
+    "stock_price_approximate": 30.79,
+    "market_cap_billion": 18.44,
+    "pe_ttm": 22.86,
+    "eps_ttm": 1.35,
+    "forward_pe": 10.39,
+    "forward_eps_estimate": 2.96,
+    "short_float_percent": 16.52,
+    "short_interest_shares_millions": 85.08,
+    "institutional_ownership": 55.80,
+    "dividend_yield": 0,
+    "beta": 1.49
+  }
+}

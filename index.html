@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMCI Research — Super Micro Computer, Inc. (NASDAQ: SMCI)</title>
+  <meta name="description" content="Comprehensive research on Super Micro Computer, Inc. (NASDAQ: SMCI) — AI server infrastructure, financials, stock analysis, and 12-month projection.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/charts.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230a0e17'/><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-family='monospace' font-size='16' font-weight='bold' fill='%233b82f6'>S</text></svg>">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="6" fill="#3b82f6" fill-opacity="0.15"/>
+          <rect x="1" y="1" width="30" height="30" rx="5" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="2"/>
+          <path d="M8 10h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM8 16h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z" fill="#3b82f6"/>
+        </svg>
+        SMCI Research
+        <span class="ticker">SMCI</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/>
+        </svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Overview</a></li>
+        <li><a href="company.html">Company</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="stock.html">Stock</a></li>
+        <li><a href="projection.html">Projection</a></li>
+        <li><a href="additional.html">Research</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="status-dot live"></span>
+        NASDAQ: SMCI — Last Updated Mar 19, 2026
+      </div>
+      <h1>Super Micro Computer, Inc.</h1>
+      <p class="hero-subtitle">
+        Deep-dive research on the AI server infrastructure leader — covering company profile, news cycle, stock analysis, and 12-month price projection.
+      </p>
+      <div class="hero-meta">
+        <div class="hero-price">
+          <div class="label">Current Price</div>
+          <div class="value">$30.79</div>
+          <div class="change down">▼ $89.21 (-74.4%) from ATH</div>
+        </div>
+        <div class="hero-price" style="text-align:center">
+          <div class="label">Market Cap</div>
+          <div class="value" style="font-size:1.5rem">$18.44B</div>
+          <div class="change" style="color:var(--color-muted)">~485M shares outstanding</div>
+        </div>
+        <div class="hero-price" style="text-align:right">
+          <div class="label">Consensus Rating</div>
+          <div class="value" style="font-size:1.5rem">Hold</div>
+          <div class="change up">▲ Avg Target $42.38 (+38%)</div>
+        </div>
+      </div>
+      <div class="flex gap-3 justify-center" style="flex-wrap:wrap">
+        <a href="stock.html" class="btn btn-primary btn-lg">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/></svg>
+          Stock Analysis
+        </a>
+        <a href="projection.html" class="btn btn-surface btn-lg">12-Month Projection</a>
+        <a href="company.html" class="btn btn-surface btn-lg">Company Profile</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK METRICS -->
+  <section class="section">
+    <div class="container">
+      <div class="metrics-panel" style="margin-bottom:2rem">
+        <div class="metric">
+          <span class="metric-label">P/E TTM</span>
+          <span class="metric-value">22.86</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Forward P/E</span>
+          <span class="metric-value accent">10.39</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">EPS TTM</span>
+          <span class="metric-value">$1.35</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Fwd EPS Est.</span>
+          <span class="metric-value accent">$2.96</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Short Float</span>
+          <span class="metric-value danger">16.52%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Inst. Ownership</span>
+          <span class="metric-value">55.80%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">52W High</span>
+          <span class="metric-value">$52.74</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">52W Low</span>
+          <span class="metric-value danger">$17.25</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Beta</span>
+          <span class="metric-value warning">1.49</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Dividend</span>
+          <span class="metric-value">None</span>
+        </div>
+      </div>
+
+      <!-- SECTION LINKS -->
+      <h2 style="margin-bottom:1.25rem">Research Sections</h2>
+      <div class="section-nav">
+        <a href="company.html">
+          <span class="num">1</span>
+          <span>Company Profile</span>
+          <span class="text-muted text-sm">Leadership, Products, Partnerships</span>
+        </a>
+        <a href="news.html">
+          <span class="num">2</span>
+          <span>News Cycle</span>
+          <span class="text-muted text-sm">12-Month Timeline (Mar 2025–Mar 2026)</span>
+        </a>
+        <a href="stock.html">
+          <span class="num">3</span>
+          <span>Stock Analysis</span>
+          <span class="text-muted text-sm">Interactive Charts &amp; Metrics</span>
+        </a>
+        <a href="projection.html">
+          <span class="num">4</span>
+          <span>12-Month Projection</span>
+          <span class="text-muted text-sm">Bull / Base / Bear Scenarios</span>
+        </a>
+        <a href="additional.html">
+          <span class="num">5</span>
+          <span>Additional Research</span>
+          <span class="text-muted text-sm">Competitive Landscape, Market Context</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY HIGHLIGHTS -->
+  <section class="section">
+    <div class="container">
+      <h2 style="margin-bottom:1.5rem">Key Research Highlights</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="tag tag-product" style="margin-bottom:0.75rem">Stock Analysis</div>
+          <h3>Q2 FY2026 Beat</h3>
+          <p>Revenue of <strong style="color:var(--color-accent)">$12.68B</strong> crushed estimates, delivering +123% YoY growth and a 50% EPS beat. FY2026 guidance raised to ≥$40B.</p>
+          <a href="stock.html" class="btn btn-surface btn-sm mt-3">View Charts</a>
+        </div>
+        <div class="card">
+          <div class="tag tag-positive" style="margin-bottom:0.75rem">Bullish Signal</div>
+          <h3>AI Infrastructure Tailwind</h3>
+          <p>Hyperscaler capex exceeding $330B combined in 2025–2026. NVIDIA Blackwell supply constrained — Supermicro's preferred partner status is a key advantage.</p>
+          <a href="additional.html" class="btn btn-surface btn-sm mt-3">Market Context</a>
+        </div>
+        <div class="card">
+          <div class="tag tag-risk" style="margin-bottom:0.75rem">Risk Factor</div>
+          <h3>Governance Uncertainty</h3>
+          <p>DOJ/SEC inquiries from 2024 Hindenburg allegations remain unresolved. EY resignation in Oct 2024 triggered governance overhaul. BDO now serving as auditor.</p>
+          <a href="company.html" class="btn btn-surface btn-sm mt-3">See Details</a>
+        </div>
+        <div class="card">
+          <div class="tag tag-neutral" style="margin-bottom:0.75rem">Risk Factor</div>
+          <h3>Margin Compression</h3>
+          <p>Net margin fell from 6.9% to 3.1% TTM due to competitive pricing on large AI infrastructure deals. Recovery is a key watch item for FY2026.</p>
+          <a href="stock.html" class="btn btn-surface btn-sm mt-3">Financials</a>
+        </div>
+        <div class="card">
+          <div class="tag tag-manufacturing" style="margin-bottom:0.75rem">Capacity</div>
+          <h3>Campus 3 Expansion</h3>
+          <p>~3M sq ft Silicon Valley campus announced Feb 2025. Up to 5,000 air-cooled or 2,000 liquid-cooled racks/month capacity. Key enabler for FY2026 guidance.</p>
+          <a href="company.html" class="btn btn-surface btn-sm mt-3">Manufacturing</a>
+        </div>
+        <div class="card">
+          <div class="tag tag-positive" style="margin-bottom:0.75rem">Valuation</div>
+          <h3>Attractive Forward P/E</h3>
+          <p>Trading at 10.4x forward P/E with ~$3 EPS estimate next year. Steep discount to pre-crisis valuations reflects governance risk premium.</p>
+          <a href="projection.html" class="btn btn-surface btn-sm mt-3">Projection</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>SMCI Research — Super Micro Computer, Inc. (NASDAQ: SMCI)</p>
+      <p class="disclaimer">
+        This research website is for informational and educational purposes only. All data is sourced from public filings, press releases, and third-party financial data providers. This is not investment advice. Always conduct your own due diligence before making investment decisions.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

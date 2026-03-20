@@ -1,0 +1,42 @@
+{
+  "id": "smci-research-website",
+  "name": "SMCI Research Website",
+  "slug": "smci-research-website",
+  "status": "active",
+  "priority": "high",
+  "owner": "Max",
+  "description": "Full research website for Super Micro Computer Inc (NASDAQ: SMCI) including company history, 12-month news cycle, stock analysis with interactive charts and news overlay, 12-month projections (bull/base/bear), and additional competitive/market research. Hosted on GitHub Pages with Chart.js for interactive data visualization.",
+  "lastActivity": "2026-03-20T09:06:00Z",
+  "taskCounts": {
+    "total": 10,
+    "inProgress": 1,
+    "blocked": 0,
+    "done": 0,
+    "waitingApproval": 0
+  },
+  "agents": [
+    "Max",
+    "Spock",
+    "Architect",
+    "WOZ",
+    "ANORAK",
+    "Q"
+  ],
+  "tags": [
+    "research",
+    "website",
+    "stock-analysis",
+    "github-pages",
+    "chartjs",
+    "smci"
+  ],
+  "createdAt": "2026-03-20T08:20:00Z",
+  "approvals": {
+    "projectPlan": {
+      "status": "approved",
+      "approvedAt": "2026-03-20T09:01:04.159Z",
+      "approvedBy": "John Tokar",
+      "continueRequested": true
+    }
+  }
+}

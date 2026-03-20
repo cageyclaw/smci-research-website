@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-040",
+  "projectId": "smci-research-website",
+  "title": "Build base HTML/CSS/JS framework",
+  "description": "Build base HTML/CSS/JS framework. All 6 pages, CSS, JS, charts built by WOZ.",
+  "status": "done",
+  "priority": "high",
+  "assignedAgent": "WOZ",
+  "assignedTo": null,
+  "artifacts": ["index.html", "company.html", "news.html", "stock.html", "projection.html", "additional.html", "css/style.css", "css/charts.css", "js/app.js", "js/charts.js", "js/timeline.js", "js/projections.js"],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:37:00Z",
+  "dueDate": null,
+  "tags": ["framework", "html", "css", "javascript"]
+}

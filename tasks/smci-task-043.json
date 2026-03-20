@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-043",
+  "projectId": "smci-research-website",
+  "title": "Section 3 — Stock Analysis page + charts",
+  "description": "Build stock.html + js/charts.js. All stock analysis data in data/stock.json, data/financials.json, data/analyst.json.",
+  "status": "done",
+  "priority": "high",
+  "assignedAgent": "Spock",
+  "assignedTo": null,
+  "artifacts": ["data/stock.json", "data/financials.json", "data/analyst.json"],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:14:00Z",
+  "dueDate": null,
+  "tags": ["content", "stock-analysis", "charts", "chartjs", "html", "javascript"]
+}

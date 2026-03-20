@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-041",
+  "projectId": "smci-research-website",
+  "title": "Section 1 — Company Profile page",
+  "description": "Build company.html. Content: founding story (1993, Charles Liang), IPO history (Mar 29 2007), core products (servers, AI/HPC, GPU, storage), technology partnerships (NVIDIA Blackwell/HGX/MGX, AMD Instinct MI350, Intel Xeon 6), manufacturing footprint (Silicon Valley campuses, 5000 air/2000 liquid racks/month), leadership (Charles Liang, Sara Liu, Kenneth Cheung), ownership breakdown, ISO 14001 cert. Include controversies section: EY resignation, Special Committee, Nasdaq filing risk. Design: hero + tabbed sub-sections.",
+  "status": "done",
+  "priority": "high",
+  "assignedAgent": "Spock",
+  "assignedTo": null,
+  "artifacts": ["data/company.json"],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:14:00Z",
+  "dueDate": null,
+  "tags": ["content", "company-profile", "html"]
+}

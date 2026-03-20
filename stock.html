@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Analysis — SMCI Research</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/charts.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230a0e17'/><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-family='monospace' font-size='16' font-weight='bold' fill='%233b82f6'>S</text></svg>">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#3b82f6" fill-opacity="0.15"/><rect x="1" y="1" width="30" height="30" rx="5" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="2"/><path d="M8 10h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM8 16h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z" fill="#3b82f6"/></svg>
+        SMCI Research <span class="ticker">SMCI</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="company.html">Company</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="stock.html" class="active">Stock</a></li>
+        <li><a href="projection.html">Projection</a></li>
+        <li><a href="additional.html">Research</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Stock Analysis</h1>
+      <p class="lead">Interactive charts and key metrics for Super Micro Computer, Inc. (NASDAQ: SMCI) — price history, financials, earnings surprises, and analyst ratings.</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="section">
+    <div class="container">
+
+      <!-- KEY METRICS PANEL -->
+      <div class="metrics-panel" style="margin-bottom:2rem">
+        <div class="metric">
+          <span class="metric-label">Price</span>
+          <span class="metric-value" style="font-size:1.25rem">$30.79</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Market Cap</span>
+          <span class="metric-value">$18.44B</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">P/E TTM</span>
+          <span class="metric-value">22.86</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Forward P/E</span>
+          <span class="metric-value accent">10.39</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">EPS TTM</span>
+          <span class="metric-value">$1.35</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Fwd EPS</span>
+          <span class="metric-value accent">$2.96</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Short Float</span>
+          <span class="metric-value danger">16.52%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Inst. Own.</span>
+          <span class="metric-value">55.80%</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">52W High</span>
+          <span class="metric-value accent">$52.74</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">52W Low</span>
+          <span class="metric-value danger">$17.25</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Beta</span>
+          <span class="metric-value warning">1.49</span>
+        </div>
+        <div class="metric">
+          <span class="metric-label">Dividend</span>
+          <span class="metric-value">None</span>
+        </div>
+      </div>
+
+      <!-- PRICE CHART -->
+      <div class="chart-section" style="margin-bottom:2rem">
+        <div class="chart-header">
+          <h3>SMCI Price History</h3>
+          <div class="chart-controls">
+            <div class="range-selector">
+              <button class="range-btn" data-range="6m">6M</button>
+              <button class="range-btn active" data-range="1y">1Y</button>
+              <button class="range-btn" data-range="2y">2Y</button>
+              <button class="range-btn" data-range="max">MAX</button>
+            </div>
+          </div>
+        </div>
+        <div class="chart-canvas-wrap">
+          <canvas id="stockChart"></canvas>
+        </div>
+        <div class="chart-legend">
+          <div class="legend-item"><span class="legend-dot" style="background:#3b82f6;border-radius:50%"></span> SMCI Price</div>
+          <div class="legend-item"><span class="legend-dot" style="background:#f59e0b"></span> 50-Day MA</div>
+          <div class="legend-item"><span class="legend-dot" style="background:#ef4444"></span> 200-Day MA</div>
+          <div class="legend-item"><span class="legend-dot" style="background:#6b7280"></span> Volume (M)</div>
+        </div>
+        <div class="news-marker-legend">
+          <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#10b981;margin-right:4px"></span> Earnings</div>
+          <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#3b82f6;margin-right:4px"></span> Product</div>
+          <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#f59e0b;margin-right:4px"></span> Governance</div>
+          <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#8b5cf6;margin-right:4px"></span> Manufacturing</div>
+        </div>
+        <div class="info-box info" style="margin-top:1rem">
+          <strong>Note:</strong> Price chart is illustrative based on key reference points from public data. For live pricing, consult Yahoo Finance or your broker. News markers (dashed lines) indicate key event dates. Chart updates with time range selection above.
+        </div>
+      </div>
+
+      <!-- ANALYST & PRICE TARGET -->
+      <div class="price-target-display">
+        <div class="price-target-item">
+          <div class="pt-label">Current Price</div>
+          <div class="pt-value current">$30.79</div>
+        </div>
+        <div class="pt-arrow">→</div>
+        <div class="price-target-item">
+          <div class="pt-label">Consensus Target</div>
+          <div class="pt-value consensus">$42.38</div>
+        </div>
+        <div class="pt-arrow">→</div>
+        <div class="price-target-item">
+          <div class="pt-label">High Target</div>
+          <div class="pt-value high">$63.00</div>
+        </div>
+        <div class="pt-arrow">→</div>
+        <div class="price-target-item">
+          <div class="pt-label">Low Target</div>
+          <div class="pt-value low">$15.00</div>
+        </div>
+        <div class="pt-arrow">→</div>
+        <div class="price-target-item">
+          <div class="pt-label">Median Target</div>
+          <div class="pt-value consensus">$39.50</div>
+        </div>
+        <div class="pt-arrow">→</div>
+        <div class="price-target-item">
+          <div class="pt-label">Avg Upside</div>
+          <div class="pt-value accent">+38%</div>
+        </div>
+      </div>
+
+      <!-- ANALYST RATINGS & EPS SURPRISE -->
+      <div class="charts-grid-2" style="margin-bottom:2rem">
+        <div class="chart-section">
+          <div class="chart-header">
+            <h3>Analyst Ratings Distribution</h3>
+          </div>
+          <div style="max-width:260px;margin:0 auto">
+            <canvas id="analystRatingChart"></canvas>
+          </div>
+          <div class="chart-legend" style="justify-content:center">
+            <div class="legend-item"><span class="legend-dot" style="background:#10b981"></span> Buy (6)</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#3b82f6"></span> Hold (8)</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#ef4444"></span> Sell (2)</div>
+          </div>
+        </div>
+        <div class="chart-section">
+          <div class="chart-header">
+            <h3>EPS Surprise</h3>
+          </div>
+          <canvas id="epsSurpriseChart"></canvas>
+        </div>
+      </div>
+
+      <!-- REVENUE & NET INCOME -->
+      <div class="charts-grid-2" style="margin-bottom:2rem">
+        <div class="chart-section">
+          <div class="chart-header">
+            <h3>Annual Revenue (5-Year)</h3>
+          </div>
+          <canvas id="revenueChart"></canvas>
+        </div>
+        <div class="chart-section">
+          <div class="chart-header">
+            <h3>Net Income &amp; Margins (5-Year)</h3>
+          </div>
+          <canvas id="netIncomeChart"></canvas>
+        </div>
+      </div>
+
+      <!-- TECHNICAL ANALYSIS -->
+      <div class="card" style="margin-bottom:2rem">
+        <h3 style="margin-bottom:1rem">Technical Analysis Summary</h3>
+        <div class="grid-3">
+          <div>
+            <h4 style="margin-bottom:0.5rem">Moving Averages</h4>
+            <div class="table-wrapper">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>50-Day MA</td>
+                    <td class="mono" style="color:var(--color-warning)">~$30–35</td>
+                    <td class="text-sm" style="color:var(--color-danger)">Price below</td>
+                  </tr>
+                  <tr>
+                    <td>200-Day MA</td>
+                    <td class="mono" style="color:var(--color-danger)">~$35–45</td>
+                    <td class="text-sm" style="color:var(--color-danger)">Price below</td>
+                  </tr>
+                  <tr>
+                    <td>20-Day MA</td>
+                    <td class="mono">~$28–32</td>
+                    <td class="text-sm">Near</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <h4 style="margin-bottom:0.5rem">Trend Assessment</h4>
+            <div class="info-box warning" style="margin:0">
+              <p class="text-sm">Price trading below key moving averages — <strong>bearish medium-term trend</strong>. Recovery above 200-day MA would be a positive signal.</p>
+            </div>
+          </div>
+          <div>
+            <h4 style="margin-bottom:0.5rem">Volume Profile</h4>
+            <div class="table-wrapper">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Avg Daily Volume</td>
+                    <td class="mono">~40–60M</td>
+                  </tr>
+                  <tr>
+                    <td>Recent Trend</td>
+                    <td class="text-sm" style="color:var(--color-warning)">Elevated</td>
+                  </tr>
+                  <tr>
+                    <td>Short Interest</td>
+                    <td class="mono danger">85.08M shares</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INVESTMENT THESIS -->
+      <div class="card">
+        <h3 style="margin-bottom:1rem">Investment Thesis Summary</h3>
+        <div class="grid-2">
+          <div>
+            <h4 style="color:var(--color-accent);margin-bottom:0.75rem">Bull Case</h4>
+            <ul style="list-style:none;padding:0">
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✓ AI infrastructure demand remains secular and massive (hyperscaler capex $330B+)</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✓ NVIDIA/AMD GPU partnerships provide diversified AI exposure</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✓ Manufacturing scale (Campus 3) positions for rack-scale wins</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✓ Q2 FY2026 $12.68B revenue beat demonstrates execution</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0">✓ Clean auditor (BDO) could restore institutional confidence</li>
+            </ul>
+          </div>
+          <div>
+            <h4 style="color:var(--color-danger);margin-bottom:0.75rem">Bear Case</h4>
+            <ul style="list-style:none;padding:0">
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✗ DOJ/SEC inquiries unresolved — potential criminal/civil liability</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✗ Margin compression persists as AI server market gets competitive</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✗ Dell and HPE gaining ground on AI server platform timing</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0;border-bottom:1px solid var(--color-border)">✗ Governance concerns weigh on institutional investor appetite</li>
+              <li class="text-sm text-muted" style="padding:0.25rem 0">✗ Working capital strain during hypergrowth could pressure liquidity</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>SMCI Research — Super Micro Computer, Inc. (NASDAQ: SMCI)</p>
+      <p class="disclaimer">This research website is for informational and educational purposes only. Not investment advice.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/charts.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Render all charts
+      if (window.renderAllCharts) renderAllCharts();
+      if (window.renderStockChart) {
+        renderStockChart('1y');
+        initStockChartRange();
+      }
+      if (window.initScrollAnimations) initScrollAnimations();
+    });
+  </script>
+</body>
+</html>

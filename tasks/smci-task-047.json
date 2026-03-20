@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-047",
+  "projectId": "smci-research-website",
+  "title": "GitHub Pages deployment + QA",
+  "description": "Push all code to GitHub repo, enable GitHub Pages (Settings → Pages → Source: main branch), verify all external CDN resources load (Chart.js, Google Fonts, Phosphor Icons). QA checklist: (1) All 5 section pages load without errors; (2) Charts render correctly on desktop/tablet/mobile; (3) News overlay markers appear on stock chart; (4) Time range selectors work; (5) Scenario buttons switch projection views; (6) No console errors; (7) All internal links work. Fix any issues found.",
+  "status": "backlog",
+  "priority": "high",
+  "assignedAgent": "Max",
+  "assignedTo": null,
+  "artifacts": [],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T08:34:00Z",
+  "dueDate": null,
+  "tags": ["deployment", "github-pages", "qa", "testing"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-039",
+  "projectId": "smci-research-website",
+  "title": "Project scaffolding & GitHub repo setup",
+  "description": "Create project directory structure, initialize GitHub repository, set up base folder layout (css/, js/, data/, assets/), add .gitignore, initial commit. Deliver repo URL.",
+  "status": "in_progress",
+  "priority": "high",
+  "assignedAgent": "WOZ",
+  "assignedTo": null,
+  "artifacts": [],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:14:00Z",
+  "dueDate": null,
+  "tags": ["setup", "github"]
+}

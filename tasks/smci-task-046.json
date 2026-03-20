@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-046",
+  "projectId": "smci-research-website",
+  "title": "Interactive news-chart overlay feature",
+  "description": "Integrate news timeline data with the stock price chart on stock.html. Each major news event renders as a vertical colored line on the chart (color = category: Earnings=green, Product=blue, Governance=red, Manufacturing=purple). Hover tooltip shows headline + price at that date. Add time range selector (6M/1Y/2Y/MAX) that updates chart and markers. Ensure chart overlays are synced with the news events in data/news.json. This is the key interactive feature tying news to stock movement.",
+  "status": "backlog",
+  "priority": "high",
+  "assignedAgent": "Max",
+  "assignedTo": null,
+  "artifacts": [],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T08:34:00Z",
+  "dueDate": null,
+  "tags": ["feature", "charts", "timeline", "news-overlay", "javascript", "chartjs"]
+}

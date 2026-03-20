@@ -1,0 +1,130 @@
+{
+  "stock_info": {
+    "company_name": "Super Micro Computer, Inc.",
+    "ticker": "SMCI",
+    "exchange": "NASDAQ",
+    "current_price_approximate": 30.79,
+    "as_of_date": "2026-03-19",
+    "market_cap_billion": 18.44,
+    "shares_outstanding_millions": 485,
+    "float_millions": "~515",
+    "note": "Market cap figure from project plan ($18.44B) aligns with ~600M shares at $30 price"
+  },
+  "valuation_metrics": {
+    "pe_ttm": 22.86,
+    "pe_forward": 10.39,
+    "eps_ttm": 1.35,
+    "eps_forward_estimate": 2.96,
+    "peg_ratio": "~2.5-3x",
+    "price_to_sales_ttm": "~0.65x",
+    "price_to_book": "~2.1x",
+    "enterprise_value_billion": "~19-20",
+    "ev_to_revenue_ttm": "~0.7x",
+    "ev_to_ebitda_ttm": "~8-10x"
+  },
+  "per_share_metrics": {
+    "book_value_per_share_approximate": 14.0,
+    "revenue_per_share_ttm": 57.9,
+    "tangible_book_value_per_share": "~14"
+  },
+  "dividend_info": {
+    "annual_dividend": 0,
+    "dividend_yield": 0,
+    "ex_dividend_date": null,
+    "note": "No dividend — all capital reinvested in growth"
+  },
+  "share_statistics": {
+    "52_week_high": 52.74,
+    "52_week_low": 17.25,
+    "6_month_high_approximate": 45.0,
+    "6_month_low_approximate": 20.0,
+    "beta": 1.49,
+    "avg_volume_30_day": "~40-60 million shares",
+    "short_float_percent": 16.52,
+    "short_interest_millions": 85.08,
+    "days_to_cover": "~5-8",
+    "percent_insider_owned": 28,
+    "percent_institutional_owned": 55.80
+  },
+  "price_history": {
+    "note": "SMCI experienced extreme volatility. Key price reference points:",
+    "key_dates": [
+      { "date": "Mar 2024", "price_approximate": 120, "event": "AI boom peak, pre-Hindenburg" },
+      { "date": "Aug 27, 2024", "price_approximate": 70, "event": "Hindenburg report published" },
+      { "date": "Sep 26, 2024", "price_approximate": 30, "event": "DOJ probe reported" },
+      { "date": "Oct 30, 2024", "price_approximate": 20, "event": "EY resignation, stock ~33% drop" },
+      { "date": "Feb 2025", "price_approximate": 35-40, "event": "Nasdaq compliance restored" },
+      { "date": "Mid 2025", "price_approximate": 40-50, "event": "Recovery attempt before Q4 FY2025 miss" },
+      { "date": "Feb 3, 2026", "price_approximate": 28-35, "event": "Q2 FY2026 beat ($12.68B revenue)" },
+      { "date": "Mar 19, 2026", "price_approximate": 30.79, "event": "Current" }
+    ],
+    "chart_time_ranges": {
+      "range_6m": {
+        "start_price": "~40-45 (Sep 2025)",
+        "end_price": "~30.79 (Mar 2026)",
+        "trend": "Down"
+      },
+      "range_1y": {
+        "start_price": "~50-55 (Mar 2025)",
+        "end_price": "~30.79 (Mar 2026)",
+        "trend": "Down ~35-40%"
+      },
+      "range_2y": {
+        "start_price": "~120 (Mar 2024 peak)",
+        "end_price": "~30.79 (Mar 2026)",
+        "trend": "Down ~75%"
+      },
+      "range_max": {
+        "all_time_high": 120.0,
+        "all_time_high_date": "March 2024",
+        "current_vs_ath": "-74%"
+      }
+    }
+  },
+  "moving_averages_for_chart": {
+    "note": "These are approximate levels as of March 2026 — verify with live data for charting:",
+    "ma_50_day": "~30-35 (price currently below MA50)",
+    "ma_200_day": "~35-45 (price currently below MA200)",
+    "ma_20_day": "~28-32",
+    "position_relative_to_mas": "Price trading below key moving averages — bearish medium-term trend"
+  },
+  "volume_profile": {
+    "avg_daily_volume": "~40-60 million shares",
+    "recent_volume_trend": "Elevated — high retail and institutional interest",
+    "note": "Volume spikes typically around earnings dates and major news events"
+  },
+  "earnings_price_history": [
+    {
+      "period": "Q3 FY2025 (Apr 2025)",
+      "revenue_billion": 4.6,
+      "eps": 0.17,
+      "price_before_earnings": "~38-42",
+      "price_after_earnings": "~35-38",
+      "reaction": "Mildly negative"
+    },
+    {
+      "period": "Q4 FY2025 (Aug 2025)",
+      "revenue_billion": 5.8,
+      "eps": 0.41,
+      "price_before_earnings": "~35-40",
+      "price_after_earnings": "~30-33",
+      "reaction": "Negative — margin miss"
+    },
+    {
+      "period": "Q1 FY2026 (Nov 2025)",
+      "revenue_billion": 5.0,
+      "eps": 0.26,
+      "price_before_earnings": "~28-32",
+      "price_after_earnings": "~30-35",
+      "reaction": "Positive — guidance raise"
+    },
+    {
+      "period": "Q2 FY2026 (Feb 2026)",
+      "revenue_billion": 12.68,
+      "eps": 0.69,
+      "price_before_earnings": "~25-28",
+      "price_after_earnings": "~30-35",
+      "reaction": "Very positive — massive beat"
+    }
+  ]
+}

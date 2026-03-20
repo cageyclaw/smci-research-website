@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Cycle — SMCI Research</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/charts.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230a0e17'/><text x='50%' y='50%' dominant-baseline='central' text-anchor='middle' font-family='monospace' font-size='16' font-weight='bold' fill='%233b82f6'>S</text></svg>">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#3b82f6" fill-opacity="0.15"/><rect x="1" y="1" width="30" height="30" rx="5" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="2"/><path d="M8 10h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM8 16h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z" fill="#3b82f6"/></svg>
+        SMCI Research <span class="ticker">SMCI</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="company.html">Company</a></li>
+        <li><a href="news.html" class="active">News</a></li>
+        <li><a href="stock.html">Stock</a></li>
+        <li><a href="projection.html">Projection</a></li>
+        <li><a href="additional.html">Research</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <h1>News Cycle</h1>
+      <p class="lead">12-month news and event timeline covering March 2025 through March 2026 — earnings results, product launches, manufacturing expansions, and governance developments.</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="section">
+    <div class="container">
+
+      <!-- FILTER BAR -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Events</button>
+        <button class="filter-btn" data-filter="Earnings">
+          <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-accent);margin-right:4px"></span>
+          Earnings
+        </button>
+        <button class="filter-btn" data-filter="Product">
+          <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-primary);margin-right:4px"></span>
+          Product
+        </button>
+        <button class="filter-btn" data-filter="Governance">
+          <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-warning);margin-right:4px"></span>
+          Governance
+        </button>
+        <button class="filter-btn" data-filter="Manufacturing">
+          <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-purple);margin-right:4px"></span>
+          Manufacturing
+        </button>
+      </div>
+
+      <!-- LEGEND -->
+      <div class="chart-legend" style="margin-bottom:1.5rem">
+        <div class="legend-item"><span class="legend-dot" style="background:#10b981"></span> Earnings</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#3b82f6"></span> Product</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#f59e0b"></span> Governance</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#8b5cf6"></span> Manufacturing</div>
+      </div>
+
+      <!-- TIMELINE -->
+      <div class="timeline" id="news-timeline">
+        <!-- Built by JS -->
+      </div>
+
+      <!-- CHART OVERLAY SECTION -->
+      <div style="margin-top:3rem">
+        <h2 style="margin-bottom:1rem">News Events vs. Stock Price</h2>
+        <p class="text-muted text-sm" style="margin-bottom:1.5rem">Major news events overlaid on the 1-year price chart. Dashed vertical lines indicate event dates. Hover over the chart for details.</p>
+        <div class="chart-section">
+          <div class="chart-header">
+            <h3>SMCI Price — 1 Year</h3>
+            <div class="chart-controls">
+              <div class="range-selector">
+                <button class="range-btn" data-range="6m">6M</button>
+                <button class="range-btn active" data-range="1y">1Y</button>
+                <button class="range-btn" data-range="2y">2Y</button>
+                <button class="range-btn" data-range="max">MAX</button>
+              </div>
+            </div>
+          </div>
+          <div class="chart-canvas-wrap">
+            <canvas id="stockChart"></canvas>
+          </div>
+          <div class="chart-legend">
+            <div class="legend-item"><span class="legend-dot" style="background:#3b82f6;border-radius:50%"></span> SMCI Price</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#f59e0b"></span> 50-Day MA</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#ef4444"></span> 200-Day MA</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#6b7280"></span> Volume</div>
+          </div>
+          <div class="news-marker-legend">
+            <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#10b981;margin-right:4px"></span> Earnings</div>
+            <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#3b82f6;margin-right:4px"></span> Product</div>
+            <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#f59e0b;margin-right:4px"></span> Governance</div>
+            <div class="legend-item"><span style="display:inline-block;width:12px;height:2px;background:#8b5cf6;margin-right:4px"></span> Manufacturing</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NOTES -->
+      <div class="info-box info" style="margin-top:2rem">
+        <h4 style="margin-bottom:0.5rem">Additional Context</h4>
+        <ul style="padding-left:1.25rem;color:var(--color-muted);font-size:0.9375rem">
+          <li>The DOJ and SEC subpoena matters from the 2024 Hindenburg allegations remain unresolved as of March 2026.</li>
+          <li>Nasdaq compliance was restored in February 2025 after the company filed its delinquent 10-Q reports.</li>
+          <li>Hindenburg Research shut down operations in 2024 after publishing its Supermicro report.</li>
+          <li>AI server market continued rapid growth in 2025–2026 driven by hyperscaler capex (Microsoft, Google, Meta, Amazon, Oracle).</li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>SMCI Research — Super Micro Computer, Inc. (NASDAQ: SMCI)</p>
+      <p class="disclaimer">This research website is for informational and educational purposes only. Not investment advice.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/timeline.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Initialize news timeline
+      if (window.initNewsTimeline) initNewsTimeline();
+
+      // Initialize stock chart with range buttons
+      if (window.renderStockChart) {
+        renderStockChart('1y');
+        initStockChartRange();
+      }
+
+      // Scroll animations
+      if (window.initScrollAnimations) initScrollAnimations();
+    });
+  </script>
+</body>
+</html>

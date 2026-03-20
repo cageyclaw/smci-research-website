@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-045",
+  "projectId": "smci-research-website",
+  "title": "Section 5 — Additional Research page",
+  "description": "Build additional.html. Topics: competitive landscape, AI infrastructure market, balance sheet, customer concentration, Hindenburg context, ESG, options.",
+  "status": "done",
+  "priority": "high",
+  "assignedAgent": "Spock",
+  "assignedTo": null,
+  "artifacts": ["data/competitors.json"],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:14:00Z",
+  "dueDate": null,
+  "tags": ["content", "additional-research", "competitive-analysis", "html"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-042",
+  "projectId": "smci-research-website",
+  "title": "Section 2 — News Cycle page + timeline",
+  "description": "Build news.html + js/timeline.js + data/news.json. Create 12-month news timeline (Mar 2025–Mar 2026).",
+  "status": "done",
+  "priority": "high",
+  "assignedAgent": "Spock",
+  "assignedTo": null,
+  "artifacts": ["data/news.json"],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:14:00Z",
+  "dueDate": null,
+  "tags": ["content", "news", "timeline", "html", "javascript"]
+}

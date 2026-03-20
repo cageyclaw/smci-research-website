@@ -1,0 +1,189 @@
+{
+  "timeline": [
+    {
+      "date": "2025-02-28",
+      "category": "Manufacturing",
+      "severity": "Positive",
+      "headline": "Silicon Valley Campus 3 Expansion Announced",
+      "summary": "Supermicro announced expansion of U.S. manufacturing capacity with a third campus in Silicon Valley. The initial phase covers ~333,400 square feet at 550 East Brokaw Road in San Jose. When fully completed, the campus is expected to span nearly 3 million square feet — one of the largest dedicated AI infrastructure manufacturing facilities in the world. The expansion will support up to 5,000 air-cooled or 2,000 liquid-cooled racks per month. Construction set to begin in 2025.",
+      "stock_impact": "Positive sentiment; expansion signals strong demand",
+      "sources": ["PR Newswire", "Supermicro IR"]
+    },
+    {
+      "date": "2025-03-06",
+      "category": "Manufacturing",
+      "severity": "Neutral",
+      "headline": "Campus 3 Construction Details Emerge",
+      "summary": "Additional details emerged about Supermicro's Campus 3 plans, confirming the dramatic scale of the San Jose expansion. The facility will serve as a major hub for liquid-cooled AI server manufacturing as demand for GPU-based infrastructure accelerates.",
+      "sources": ["Silicon Valley Business Journal"]
+    },
+    {
+      "date": "2025-04-28",
+      "category": "Earnings",
+      "severity": "Mixed",
+      "headline": "Q3 FY2025 Earnings (Period ending March 31, 2025)",
+      "summary": "Q3 FY2025 net sales of $4.6 billion. EPS of $0.17 per share (non-GAAP). The company reaffirmed its full-year FY2025 revenue guidance of $21.8 billion to $22.6 billion. Revenue growth remained strong year-over-year driven by AI server demand, though margins remained compressed due to competitive pricing pressures on large AI infrastructure deals.",
+      "financials": {
+        "revenue_billion": 4.6,
+        "eps": 0.17,
+        "period": "Q3 FY2025"
+      },
+      "stock_impact": "Neutral — guidance maintained",
+      "sources": ["Supermicro IR"]
+    },
+    {
+      "date": "2025-06-12",
+      "category": "Product",
+      "severity": "Positive",
+      "headline": "AMD Instinct MI350 GPU Platform Launch",
+      "summary": "Supermicro launched AI solutions optimized for AMD Instinct MI350 series GPUs and AMD ROCm software. Both liquid-cooled and air-cooled configurations were made available, delivering breakthrough inference performance and power efficiency based on Supermicro's DCBBS (Data Center Building Block Solutions) architecture. The launch positioned Supermicro among the first OEMs to market with AMD's next-generation data center GPUs.",
+      "products": ["AMD Instinct MI350 series GPUs", "AMD ROCm software", "Supermicro DCBBS architecture"],
+      "stock_impact": "Positive — broadens AI GPU portfolio",
+      "sources": ["PR Newswire", "Supermicro IR", "Morningstar"]
+    },
+    {
+      "date": "2025-07-16",
+      "category": "Product",
+      "severity": "Positive",
+      "headline": "Intel Xeon 6 4-Socket Server Launch",
+      "summary": "Supermicro launched its 4-socket server platform based on Intel Xeon 6 processors (with DDR5 MRDIMMs at 8800 MT/s), supporting dual 500W processors per node. This launch expanded Supermicro's CPU-centric server offerings for enterprise and HPC workloads, complementing its GPU-accelerated AI server lines.",
+      "products": ["Intel Xeon 6 processor-based 4-socket servers"],
+      "stock_impact": "Positive — CPU server portfolio expansion",
+      "sources": ["Supermicro IR", "PR Newswire"]
+    },
+    {
+      "date": "2025-08-05",
+      "category": "Earnings",
+      "severity": "Mixed",
+      "headline": "Q4 FY2025 & Full-Year FY2025 Results",
+      "summary": "Q4 FY2025 net sales of $5.8 billion (8% YoY growth). Q4 EPS of $0.41 (down from $0.50 in Q4 FY2024). Full-year FY2025 revenue of $22.0 billion (non-GAAP EPS of $2.60, up from $2.12 in FY2024). The company issued FY2026 guidance of ≥$33 billion revenue initially, later raised to ≥$36 billion, reflecting strong AI infrastructure demand but also noting margin pressures.",
+      "financials": {
+        "q4_revenue_billion": 5.8,
+        "q4_eps": 0.41,
+        "fy2025_revenue_billion": 22.0,
+        "fy2025_net_income_billion": 1.0,
+        "period": "Q4 FY2025 / Full-Year FY2025"
+      },
+      "stock_impact": "Mixed — strong revenue but margin compression",
+      "sources": ["Supermicro IR", "Investing.com"]
+    },
+    {
+      "date": "2025-10-28",
+      "category": "Product",
+      "severity": "Positive",
+      "headline": "NVIDIA Vera Rubin NVL144 Platform Announcement",
+      "summary": "Supermicro announced deepening collaboration with NVIDIA to bring NVIDIA Vera Rubin NVL144 and Vera Rubin CPX platforms to market in 2026, offering more than 3x AI attention acceleration versus Blackwell Ultra. This positioned Supermicro for the next generation of AI infrastructure deployments expected in 2026.",
+      "products": ["NVIDIA Vera Rubin NVL144", "NVIDIA Vera Rubin CPX"],
+      "stock_impact": "Positive — next-gen platform roadmap",
+      "sources": ["Supermicro", "NVIDIA"]
+    },
+    {
+      "date": "2025-11-04",
+      "category": "Earnings",
+      "severity": "Mixed",
+      "headline": "Q1 FY2026 Results (Period ending September 30, 2025)",
+      "summary": "Q1 FY2026 net sales of $5.0 billion with EPS of $0.26. The company guided FY2026 revenue of ≥$36 billion (raised from ≥$33 billion). Operating cash flow was negative ($918 million) in the quarter due to working capital buildup as the company scaled for massive anticipated demand. Net margin fell to 3.4% reflecting competitive pricing pressure on large AI infrastructure deals.",
+      "financials": {
+        "revenue_billion": 5.0,
+        "eps": 0.26,
+        "net_margin_percent": 3.4,
+        "operating_cash_flow_million": -918,
+        "period": "Q1 FY2026"
+      },
+      "stock_impact": "Mixed — guidance raised but margins compressed",
+      "sources": ["Supermicro IR", "Yahoo Finance"]
+    },
+    {
+      "date": "2025-11-18",
+      "category": "Product",
+      "severity": "Positive",
+      "headline": "NVIDIA HGX B200 Direct Liquid-Cooled Solutions",
+      "summary": "Supermicro delivered its direct-liquid-optimized NVIDIA Blackwell solutions, including the NVIDIA HGX B200 platform with advanced thermal and power delivery design supporting dual 500W Intel Xeon 6 processors or AMD EPYC 9005 Series processors. These systems were targeted at AI factory environments requiring maximum compute density.",
+      "products": ["NVIDIA HGX B200", "Direct liquid cooling"],
+      "stock_impact": "Positive",
+      "sources": ["PR Newswire", "Supermicro IR"]
+    },
+    {
+      "date": "2025-11-21",
+      "category": "Product",
+      "severity": "Positive",
+      "headline": "AMD Instinct MI355X Air-Cooled AI Server Launch",
+      "summary": "Supermicro expanded its AMD-based AI server portfolio with the introduction of air-cooled solutions featuring AMD Instinct MI355X GPUs. These systems target customers seeking high AI performance without liquid cooling infrastructure requirements, broadening Supermicro's addressable market.",
+      "products": ["AMD Instinct MI355X GPUs", "Air-cooled AI servers"],
+      "stock_impact": "Neutral to positive",
+      "sources": ["Engineering.com", "Supermicro IR"]
+    },
+    {
+      "date": "2025-12-01",
+      "category": "Governance",
+      "severity": "Neutral",
+      "headline": "Special Committee Investigation Ongoing",
+      "summary": "The Special Committee of Supermicro's Board, formed to investigate accounting and governance matters following EY's resignation, continued its work. The company stated it was implementing governance improvements and strengthening internal controls.",
+      "sources": ["SEC filings", "Supermicro IR"]
+    },
+    {
+      "date": "2026-01-15",
+      "category": "Governance",
+      "severity": "Neutral",
+      "headline": "BDO USA Engagement Progress",
+      "summary": "BDO USA, LLP, Supermicro's newly appointed auditor following EY's resignation, continued its audit work. The company worked to restore financial reporting credibility with the new audit firm.",
+      "sources": ["Supermicro IR"]
+    },
+    {
+      "date": "2026-02-03",
+      "category": "Earnings",
+      "severity": "Positive",
+      "headline": "Q2 FY2026 Results (Period ending December 31, 2025)",
+      "summary": "Q2 FY2026 revenue of $12.68 billion (up 123% YoY), with non-GAAP EPS of $0.69, beating analyst estimates of $0.46 by 50%. The company raised FY2026 guidance to ≥$40 billion revenue. Operating cash flow turned slightly negative ($24 million) as working capital remained elevated. Cash balance of $4.1 billion against total debt of $4.9 billion. Net income for trailing 12 months was approximately $872.8 million (3.1% net margin vs. 6.9% a year earlier).",
+      "financials": {
+        "revenue_billion": 12.68,
+        "eps": 0.69,
+        "consensus_eps_estimate": 0.46,
+        "beat_percentage": 50,
+        "cash_billion": 4.1,
+        "total_debt_billion": 4.9,
+        "net_income_ttm_billion": 0.873,
+        "net_margin_ttm_percent": 3.1,
+        "period": "Q2 FY2026"
+      },
+      "guidance": {
+        "fy2026_revenue_billion": 40.0,
+        "q3_fy2026_revenue_billion": 12.3
+      },
+      "stock_impact": "Positive — massive revenue beat and guidance raise",
+      "sources": ["Supermicro IR", "Public.com", "247WallSt", "Fintool"]
+    },
+    {
+      "date": "2026-02-08",
+      "category": "Governance",
+      "severity": "Neutral",
+      "headline": "Q2 FY2026 Margin Compression Analysis",
+      "summary": "Financial analysts noted that while Q2 FY2026 revenue of $12.68 billion represented a massive beat, net margin of ~3.1% (vs. 6.9% a year earlier) signaled ongoing margin compression. Analysts flagged this as a risk factor for the bullish thesis, with competitive pricing pressure on large AI infrastructure deals compressing profitability.",
+      "sources": ["Simply Wall St"]
+    },
+    {
+      "date": "2026-03-14",
+      "category": "Governance",
+      "severity": "Neutral",
+      "headline": "CEO Statement on AI Infrastructure Position",
+      "summary": "CEO Charles Liang stated that Supermicro is at the center of the AI infrastructure buildout, emphasizing the company's role in providing total IT solutions across AI, cloud, storage, and edge computing. The company highlighted its manufacturing expansion and multi-vendor GPU partnerships (NVIDIA, AMD, Intel) as key differentiators.",
+      "sources": ["24/7 Wall St"]
+    },
+    {
+      "date": "2026-03-19",
+      "category": "Earnings",
+      "severity": "Positive",
+      "headline": "Q3 FY2026 Earnings Anticipation",
+      "summary": "Supermicro was expected to report Q3 FY2026 results around mid-March 2026, with Q3 guidance at ≥$12.3 billion revenue. Analysts continued to monitor margin recovery signals and FY2027 guidance implications.",
+      "period": "Q3 FY2026 (estimated)",
+      "guidance_q3": "≥$12.3 billion"
+    }
+  ],
+  "notes": [
+    "The DOJ and SEC subpoena matters from the 2024 Hindenburg allegations remain unresolved as of March 2026.",
+    "Nasdaq compliance was restored in February 2025 after the company filed its delinquent 10-Q reports.",
+    "Hindenburg Research shut down operations in 2024 after its Supermicro report.",
+    "The Special Committee investigation led to governance improvements but full findings may not be publicly disclosed.",
+    "AI server market continued rapid growth in 2025-2026 driven by hyperscaler capex (Microsoft, Google, Meta, Amazon, Oracle)."
+  ]
+}

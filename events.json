@@ -1,0 +1,183 @@
+[
+  {
+    "id": "smci-event-001",
+    "type": "project_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": null,
+    "taskTitle": null,
+    "agentName": "Architect",
+    "message": "SMCI Research Website project created. Full spec defined in Project.md. 10 tasks queued. Research data sourced from smci-company-report.",
+    "metadata": {
+      "priority": "high",
+      "sections": 5,
+      "tech_stack": "vanilla HTML/CSS/JS, Chart.js, GitHub Pages"
+    },
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-002",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-039",
+    "taskTitle": "Project scaffolding & GitHub repo setup",
+    "agentName": "Architect",
+    "message": "Task smci-task-039 created: Project scaffolding & GitHub repo setup",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-003",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-040",
+    "taskTitle": "Build base HTML/CSS/JS framework",
+    "agentName": "Architect",
+    "message": "Task smci-task-040 created: Build base HTML/CSS/JS framework",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-004",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-041",
+    "taskTitle": "Section 1 \u2014 Company Profile page",
+    "agentName": "Architect",
+    "message": "Task smci-task-041 created: Section 1 \u2014 Company Profile page",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-005",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-042",
+    "taskTitle": "Section 2 \u2014 News Cycle page + timeline",
+    "agentName": "Architect",
+    "message": "Task smci-task-042 created: Section 2 \u2014 News Cycle page + timeline",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-006",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-043",
+    "taskTitle": "Section 3 \u2014 Stock Analysis page + charts",
+    "agentName": "Architect",
+    "message": "Task smci-task-043 created: Section 3 \u2014 Stock Analysis page + charts",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-007",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-044",
+    "taskTitle": "Section 4 \u2014 12-Month Projection page",
+    "agentName": "Architect",
+    "message": "Task smci-task-044 created: Section 4 \u2014 12-Month Projection page",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-008",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-045",
+    "taskTitle": "Section 5 \u2014 Additional Research page",
+    "agentName": "Architect",
+    "message": "Task smci-task-045 created: Section 5 \u2014 Additional Research page",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-009",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-046",
+    "taskTitle": "Interactive news-chart overlay feature",
+    "agentName": "Architect",
+    "message": "Task smci-task-046 created: Interactive news-chart overlay feature",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-010",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-047",
+    "taskTitle": "GitHub Pages deployment + QA",
+    "agentName": "Architect",
+    "message": "Task smci-task-047 created: GitHub Pages deployment + QA",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "smci-event-011",
+    "type": "task_created",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-048",
+    "taskTitle": "Final review + URL delivery",
+    "agentName": "Architect",
+    "message": "Task smci-task-048 created: Final review + URL delivery",
+    "metadata": null,
+    "timestamp": "2026-03-20T08:34:00Z"
+  },
+  {
+    "id": "evt-smci-research-website-6b9aea8a-f66f-44e8-9f6c-68dda80d684b",
+    "type": "approval_granted",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": null,
+    "taskTitle": null,
+    "agentName": "Max",
+    "message": "Project plan approved. Continue execution using PROJECT_PLAN.md.",
+    "metadata": {
+      "entityType": "project_plan",
+      "entityPath": "PROJECT_PLAN.md",
+      "approvedBy": "John Tokar"
+    },
+    "timestamp": "2026-03-20T09:01:04.159Z"
+  },
+  {
+    "id": "evt-smci-research-website-7c8d2f1a-3b5e-4d9f-8a6c-1e2f4a5b8c3d",
+    "type": "agent_activity",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-041",
+    "taskTitle": "Section 1 \u2014 Company Profile page",
+    "agentName": "Spock",
+    "message": "Spock assigned to research tasks 041\u2013045. Research phase in progress.",
+    "metadata": {
+      "activity": "research_started"
+    },
+    "timestamp": "2026-03-20T09:07:00Z"
+  },
+  {
+    "id": "evt-smci-build-start-8d9e3f2b-4c6a-5e8f-9b1d-2e3f5a7c8b4a",
+    "type": "agent_activity",
+    "projectId": "smci-research-website",
+    "projectName": "SMCI Research Website",
+    "taskId": "smci-task-039",
+    "taskTitle": "Project scaffolding & GitHub repo setup",
+    "agentName": "WOZ",
+    "message": "Research phase complete (tasks 041-045 done). WOZ now building the full website.",
+    "metadata": {
+      "activity": "build_started",
+      "phase": "WOZ_build"
+    },
+    "timestamp": "2026-03-20T09:14:00Z"
+  }
+]

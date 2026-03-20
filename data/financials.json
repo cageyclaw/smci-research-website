@@ -1,0 +1,199 @@
+{
+  "stock_price_data": {
+    "current_price_approximate": 30.79,
+    "as_of_date": "2026-03-19",
+    "data_source_note": "Stock price data sourced from Yahoo Finance, Macrotrends, and stockanalysis.com. Current price ~$30.79 as of March 19, 2026.",
+    "market_cap_billion": 18.44,
+    "shares_outstanding_approximate": 485,
+    "note": "Share count approximate based on market cap / price"
+  },
+  "historical_price_ranges": {
+    "52_week_high": 52.74,
+    "52_week_low": 17.25,
+    "6_month_range": {
+      "low": "~$20-25 range (late 2025 dip)",
+      "high": "~$40-45 range (mid-2025 peak before EY news)"
+    },
+    "1_year_range": {
+      "low": "~$17-20 range",
+      "high": "~$50-55 range"
+    },
+    "2_year_range": {
+      "low": "~$17 (late 2024 crisis low)",
+      "high": "~$120+ (early 2024 AI boom peak)"
+    }
+  },
+  "key_metrics": {
+    "pe_ttm": 22.86,
+    "pe_forward": 10.39,
+    "eps_ttm": 1.35,
+    "eps_forward_estimate": 2.96,
+    "peg_ratio": "~2.5-3x (estimated)",
+    "eps_next_year": 2.96,
+    "dividend_yield": 0,
+    "beta": 1.49,
+    "short_float_percent": 16.52,
+    "short_interest_shares_millions": 85.08,
+    "institutional_ownership_percent": 55.80,
+    "revenue_per_share_ttm": "~57",
+    "book_value_per_share_approximate": "~14-15"
+  },
+  "moving_averages": {
+    "note": "Moving average data should be fetched from live data source for chart overlay. As of March 2026, approximate levels:",
+    "ma_50_day_approximate": "~$30-35 range (varies with price)",
+    "ma_200_day_approximate": "~$35-45 range (declining from 2024 peaks)"
+  },
+  "earnings_history": {
+    "quarterly_eps": [
+      {
+        "period": "Q3 FY2025 (ended Mar 2025)",
+        "revenue_billion": 4.60,
+        "eps_reported": 0.17,
+        "eps_consensus_estimate": null,
+        "note": "Non-GAAP EPS"
+      },
+      {
+        "period": "Q4 FY2025 (ended Jun 2025)",
+        "revenue_billion": 5.80,
+        "eps_reported": 0.41,
+        "eps_consensus_estimate": null,
+        "note": "Non-GAAP EPS; down from $0.50 YoY"
+      },
+      {
+        "period": "Q1 FY2026 (ended Sep 2025)",
+        "revenue_billion": 5.02,
+        "eps_reported": 0.26,
+        "eps_consensus_estimate": null,
+        "note": "Non-GAAP EPS"
+      },
+      {
+        "period": "Q2 FY2026 (ended Dec 2025)",
+        "revenue_billion": 12.68,
+        "eps_reported": 0.69,
+        "eps_consensus_estimate": 0.46,
+        "beat_percentage": 50,
+        "note": "Non-GAAP EPS, massive beat"
+      },
+      {
+        "period": "Q3 FY2026 (ended Mar 2026)",
+        "revenue_billion": null,
+        "eps_reported": null,
+        "guidance_revenue_billion": 12.3,
+        "note": "Results pending or recently reported"
+      }
+    ]
+  },
+  "revenue_history": {
+    "annual": [
+      {
+        "fiscal_year": "FY2021",
+        "revenue_million": 3557,
+        "yoy_growth_percent": null,
+        "note": "FY ends June 30"
+      },
+      {
+        "fiscal_year": "FY2022",
+        "revenue_million": 5196,
+        "yoy_growth_percent": 46.1,
+        "note": "Post-pandemic AI demand beginning"
+      },
+      {
+        "fiscal_year": "FY2023",
+        "revenue_million": 7123,
+        "yoy_growth_percent": 37.1,
+        "note": "AI infrastructure buildout accelerates"
+      },
+      {
+        "fiscal_year": "FY2024",
+        "revenue_million": 14989,
+        "yoy_growth_percent": 110.4,
+        "note": "Explosive AI server demand"
+      },
+      {
+        "fiscal_year": "FY2025",
+        "revenue_million": 21972,
+        "yoy_growth_percent": 46.6,
+        "note": "Continued strong growth despite EY controversy"
+      }
+    ],
+    "quarterly": [
+      { "quarter": "Q3 FY2024 (ended Mar 2024)", "revenue_million": 3850 },
+      { "quarter": "Q4 FY2024 (ended Jun 2024)", "revenue_million": 5355 },
+      { "quarter": "Q1 FY2025 (ended Sep 2024)", "revenue_million": 5637 },
+      { "quarter": "Q2 FY2025 (ended Dec 2024)", "revenue_million": 5678 },
+      { "quarter": "Q3 FY2025 (ended Mar 2025)", "revenue_million": 4600 },
+      { "quarter": "Q4 FY2025 (ended Jun 2025)", "revenue_million": 5757 },
+      { "quarter": "Q1 FY2026 (ended Sep 2025)", "revenue_million": 5018 },
+      { "quarter": "Q2 FY2026 (ended Dec 2025)", "revenue_million": 12682 }
+    ],
+    "ttm_revenue_billion": 28.1,
+    "note": "TTM revenue as of Q2 FY2026 (Dec 2025)"
+  },
+  "net_income_history": {
+    "annual": [
+      {
+        "fiscal_year": "FY2023",
+        "net_income_million": "~400-500",
+        "note": "Approximate; company returned to profitability after prior losses"
+      },
+      {
+        "fiscal_year": "FY2024",
+        "net_income_million": "~640-700",
+        "note": "Strong growth year"
+      },
+      {
+        "fiscal_year": "FY2025",
+        "net_income_million": 1000,
+        "note": "Net income ~$1.0 billion for FY2025"
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q1 FY2025 (ended Sep 2024)",
+        "net_income_million": "~176",
+        "note": "From comparable quarter YoY"
+      },
+      {
+        "period": "Q2 FY2025 (ended Dec 2024)",
+        "net_income_million": "~296",
+        "note": "Strong quarter"
+      },
+      {
+        "period": "Q1 FY2026 (ended Sep 2025)",
+        "net_margin_percent": 3.4,
+        "note": "Margin compression visible"
+      },
+      {
+        "period": "Q2 FY2026 (ended Dec 2025)",
+        "net_income_million": "~310-330",
+        "note": "Estimated from $12.68B revenue at ~2.5-3% margin; TTM net income ~$872.8M"
+      }
+    ],
+    "ttm_net_income_million": 872.8,
+    "ttm_net_margin_percent": 3.1,
+    "note": "Net margin has compressed significantly from ~6.9% a year earlier to 3.1% TTM"
+  },
+  "balance_sheet": {
+    "as_of_date": "2025-12-31 (Q2 FY2026)",
+    "cash_and_equivalents_billion": 4.1,
+    "total_debt_billion": 4.9,
+    "net_debt_billion": 0.8,
+    "total_assets_billion": 28.0,
+    "total_liabilities_billion": 21.0,
+    "shareholders_equity_billion": 7.0,
+    "debt_to_equity_ratio_percent": 69.8,
+    "note": "Cash $4.1B against net debt of ~$787M as of Q2 FY2026"
+  },
+  "cash_flow": {
+    "q1_fy2026_operating_cash_flow_million": -918,
+    "q2_fy2026_operating_cash_flow_million": -24,
+    "note": "Negative operating cash flow in H1 FY2026 reflects working capital buildup for anticipated demand surge"
+  },
+  "margins": {
+    "gross_margin_approximate": "~15-17%",
+    "operating_margin_approximate": "~4-5%",
+    "net_margin_fy2025": "~4.5%",
+    "net_margin_ttm_q2_2026": "3.1%",
+    "note": "Margins have compressed due to competitive pricing on large AI infrastructure deals"
+  }
+}

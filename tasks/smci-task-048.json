@@ -1,0 +1,15 @@
+{
+  "id": "smci-task-048",
+  "projectId": "smci-research-website",
+  "title": "Final review + URL delivery",
+  "description": "Q final review of all content for accuracy and completeness. Verify all SMCI data matches source research. Confirm design system consistency across all pages. Mark all tasks done. Deliver final live GitHub Pages URL to requester.",
+  "status": "backlog",
+  "priority": "high",
+  "assignedAgent": "Q",
+  "assignedTo": null,
+  "artifacts": [],
+  "createdAt": "2026-03-20T08:34:00Z",
+  "updatedAt": "2026-03-20T09:10:00Z",
+  "dueDate": null,
+  "tags": ["review", "final", "deployment"]
+}

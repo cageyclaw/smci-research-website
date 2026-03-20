@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Additional Research — SMCI Research</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/charts.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27><rect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%230a0e17%27/><text x=%2750%25%27 y=%2750%25%27 dominant-baseline=%27central%27 text-anchor=%27middle%27 font-family=%27monospace%27 font-size=%2716%27 font-weight=%27bold%27 fill=%27%233b82f6%27>S</text></svg>">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">
+        <svg width="20" height="20" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#3b82f6" fill-opacity="0.15"/><rect x="1" y="1" width="30" height="30" rx="5" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="2"/><path d="M8 10h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM8 16h4v4H8v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z" fill="#3b82f6"/></svg>
+        SMCI Research <span class="ticker">SMCI</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/></svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Overview</a></li>
+        <li><a href="company.html">Company</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="stock.html">Stock</a></li>
+        <li><a href="projection.html">Projection</a></li>
+        <li><a href="additional.html" class="active">Research</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Additional Research</h1>
+      <p class="lead">Deep-dive topics including competitive landscape, AI infrastructure market context, balance sheet analysis, customer concentration, short-seller context, ESG, and options market.</p>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="section">
+    <div class="container">
+
+      <!-- TABS -->
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="tab-competition">Competitive Landscape</button>
+        <button class="tab-btn" data-tab="tab-market">AI Market Context</button>
+        <button class="tab-btn" data-tab="tab-balance">Balance Sheet</button>
+        <button class="tab-btn" data-tab="tab-customers">Customer Concentration</button>
+        <button class="tab-btn" data-tab="tab-hindenburg">Short-Seller Context</button>
+        <button class="tab-btn" data-tab="tab-esg">ESG</button>
+        <button class="tab-btn" data-tab="tab-options">Options Market</button>
+      </div>
+
+      <!-- ========== COMPETITIVE LANDSCAPE ========== -->
+      <div id="tab-competition" class="tab-panel active">
+
+        <div class="info-box warning" style="margin-bottom:1.5rem">
+          <strong>Market Position:</strong> Supermicro holds approximately <strong>5.3% of the branded OEM server market</strong> (MatrixBCG, Dec 2025) and is a Top 5 global server vendor. Its AI/GPU server market share is higher due to deep NVIDIA partnership. The overall server market is dominated by Dell (19.3%) and HPE (13%).
+        </div>
+
+        <!-- COMPETITIVE MATRIX TABLE -->
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Competitive Matrix</h3>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Company</th>
+                  <th>Market Share</th>
+                  <th>AI Focus</th>
+                  <th>NVIDIA Partnership</th>
+                  <th>Global Distribution</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Supermicro (SMCI)</strong></td>
+                  <td>5.3%</td>
+                  <td style="color:var(--color-accent)">Very High</td>
+                  <td style="color:var(--color-accent)">Very Deep (Preferred)</td>
+                  <td>Strong globally</td>
+                </tr>
+                <tr>
+                  <td><strong>Dell Technologies</strong></td>
+                  <td>19.3%</td>
+                  <td>High (growing rapidly)</td>
+                  <td>Deep (DGX partner)</td>
+                  <td style="color:var(--color-accent)">Excellent</td>
+                </tr>
+                <tr>
+                  <td><strong>HPE</strong></td>
+                  <td>13%</td>
+                  <td>Moderate-High (HPC legacy)</td>
+                  <td>Deep</td>
+                  <td style="color:var(--color-accent)">Excellent</td>
+                </tr>
+                <tr>
+                  <td><strong>Lenovo DCG</strong></td>
+                  <td>~4–5%</td>
+                  <td>Moderate</td>
+                  <td>Moderate</td>
+                  <td>Strong in APAC</td>
+                </tr>
+                <tr>
+                  <td><strong>Gigabyte</strong></td>
+                  <td>~3–4%</td>
+                  <td>High</td>
+                  <td>Very Deep (Taiwan top partner)</td>
+                  <td>Moderate globally</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- DELL -->
+        <div class="competitor-card">
+          <div class="competitor-header">
+            <h4>
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" style="color:var(--color-accent)"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
+              Dell Technologies
+              <span class="ticker-tag">NYSE: DELL</span>
+            </h4>
+            <span class="tag tag-risk" style="font-size:0.625rem">Primary Threat</span>
+          </div>
+          <p class="text-sm text-muted" style="margin-bottom:0.75rem">Market share: 19.3% (largest global server vendor). Dell is cited as beating Supermicro on AI server platform timing (Nov 2025) and has massive global distribution infrastructure.</p>
+          <div class="flex gap-4">
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Strengths</div>
+              <ul class="strength-list">
+                <li>Largest global server vendor</li>
+                <li>PowerEdge AI server lineup surging</li>
+                <li>Deep NVIDIA DGX partnership</li>
+                <li>Global distribution &amp; support</li>
+                <li>Strong enterprise brand</li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Weaknesses</div>
+              <ul class="weakness-list">
+                <li>Legacy infrastructure slower to adapt</li>
+                <li>Higher cost vs. purpose-built</li>
+              </ul>
+            </div>
+          </div>
+          <p class="text-xs text-muted" style="margin-top:0.75rem;padding:0.5rem;background:var(--color-surface-2);border-radius:var(--radius-sm)">
+            <strong>Recent AI News:</strong> Surging AI server sales and expanding PowerEdge lineup — Dell cited as outperforming Supermicro in platform timing (Nov 2025, Yahoo Finance).
+          </p>
+        </div>
+
+        <!-- HPE -->
+        <div class="competitor-card">
+          <div class="competitor-header">
+            <h4>
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" style="color:var(--color-accent)"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
+              Hewlett Packard Enterprise
+              <span class="ticker-tag">NYSE: HPE</span>
+            </h4>
+            <span class="tag tag-neutral" style="font-size:0.625rem">Moderate Threat</span>
+          </div>
+          <p class="text-sm text-muted" style="margin-bottom:0.75rem">Market share: 13%. Leading HPC market position (32.6% share of publicly disclosed HPC systems). Juniper Networks acquisition strengthens AI networking portfolio.</p>
+          <div class="flex gap-4">
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Strengths</div>
+              <ul class="strength-list">
+                <li>Leading HPC position (32.6%)</li>
+                <li>Strong Apollo AI/HPC systems</li>
+                <li>Juniper Networks (AI networking)</li>
+                <li>GreenLake consumption model</li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Weaknesses</div>
+              <ul class="weakness-list">
+                <li>HPC-focused, not hyperscaler AI factory</li>
+                <li>Slower GPU platform time-to-market</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- LENOVO -->
+        <div class="competitor-card">
+          <div class="competitor-header">
+            <h4>
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" style="color:var(--color-muted)"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
+              Lenovo (Data Center Group)
+              <span class="ticker-tag">HKSE: 992</span>
+            </h4>
+            <span class="tag" style="font-size:0.625rem;background:var(--color-surface);color:var(--color-muted)">Watch</span>
+          </div>
+          <p class="text-sm text-muted" style="margin-bottom:0.75rem">Market share: ~4–5% global. Strong Asia-Pacific position with 22.4% HPC market share of publicly disclosed systems. Cost-competitive AI servers, growing globally.</p>
+          <div class="flex gap-4">
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Strengths</div>
+              <ul class="strength-list">
+                <li>Top Asia-Pacific server position</li>
+                <li>Cost-competitive AI servers</li>
+                <li>22.4% HPC market share</li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Weaknesses</div>
+              <ul class="weakness-list">
+                <li>Limited US hyperscaler penetration</li>
+                <li>Less deep NVIDIA partnership</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- GIGABYTE -->
+        <div class="competitor-card">
+          <div class="competitor-header">
+            <h4>
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" style="color:var(--color-muted)"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg>
+              Gigabyte Technology
+              <span class="ticker-tag">TPE: 2376</span>
+            </h4>
+            <span class="tag" style="font-size:0.625rem;background:var(--color-surface);color:var(--color-muted)">Direct Competitor</span>
+          </div>
+          <p class="text-sm text-muted" style="margin-bottom:0.75rem">Market share: ~3–4%. Taiwan's top NVIDIA partner, broad GPU server product line, cost-competitive manufacturing. Strong in Asia-Pacific AI server market.</p>
+          <div class="flex gap-4">
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Strengths</div>
+              <ul class="strength-list">
+                <li>Deep NVIDIA partnership (Taiwan #1)</li>
+                <li>Broad GPU server product line</li>
+                <li>Cost-competitive Taiwan mfg</li>
+              </ul>
+            </div>
+            <div>
+              <div class="text-xs text-muted" style="margin-bottom:0.25rem">Key Weaknesses</div>
+              <ul class="weakness-list">
+                <li>Limited US enterprise presence</li>
+                <li>Lower brand in Western markets</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- INSPUR & QUANTA summary -->
+        <div class="card" style="margin-top:1rem">
+          <h4>Other Key Competitors</h4>
+          <div class="table-wrapper" style="margin-top:0.75rem">
+            <table>
+              <thead>
+                <tr>
+                  <th>Company</th>
+                  <th>Market Share</th>
+                  <th>Position</th>
+                  <th>Key Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Inspur</strong> (SHE: 000977)</td>
+                  <td>~5–8% global</td>
+                  <td>China market leader</td>
+                  <td>Top 2 in China; US market limited by export restrictions; strong government/telco relationships</td>
+                </tr>
+                <tr>
+                  <td><strong>Quanta Computer</strong> (TPE: 2382)</td>
+                  <td>ODM model</td>
+                  <td>Major hyperscaler ODM</td>
+                  <td>Major ODM for hyperscale AI servers; manufactures for multiple cloud providers; ODM model limits branded market share</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Supermicro advantages -->
+        <div class="card" style="margin-top:1.5rem">
+          <h3 style="margin-bottom:1rem">Supermicro Competitive Advantages</h3>
+          <div class="grid-2">
+            <div>
+              <ul style="list-style:none;padding:0">
+                <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ Deepest NVIDIA partnership — preferred launch partner for Blackwell and new GPU platforms</li>
+                <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ Fastest time-to-market with new GPU architectures (first or among first)</li>
+                <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ Purpose-built AI factory solutions (rack-scale, liquid-cooled)</li>
+                <li class="text-sm text-muted" style="padding:0.3rem 0">✅ US manufacturing in Silicon Valley (national security advantage)</li>
+              </ul>
+            </div>
+            <div>
+              <ul style="list-style:none;padding:0">
+                <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ Total IT Solutions (servers + storage + networking integrated)</li>
+                <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ Liquid cooling expertise — critical for high-density GPU deployments</li>
+                <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ Multi-vendor GPU (NVIDIA, AMD, Intel) — customer flexibility</li>
+                <li class="text-sm text-muted" style="padding:0.3rem 0">✅ Vertically integrated manufacturing in Silicon Valley</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ========== AI MARKET CONTEXT ========== -->
+      <div id="tab-market" class="tab-panel">
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Global AI Server Market</h3>
+          <div class="financials-highlight" style="margin-bottom:1rem">
+            <div class="fin-stat">
+              <div class="value">~$40–50B</div>
+              <div class="label">2024 Market Size</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">~$70–90B</div>
+              <div class="label">2025 Est. Market Size</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">~$100–140B</div>
+              <div class="label">2026 Projected</div>
+              <div class="sub" style="color:var(--color-accent)">~2x growth in 2 years</div>
+            </div>
+          </div>
+          <p class="text-sm text-muted">Source: IDC, Gartner, GM Insights estimates. Market size reflects branded OEM + ODM server sales for AI/HPC workloads.</p>
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Hyperscaler Capex Trends (2025–2026)</h3>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Company</th>
+                  <th>2025–2026 Capex</th>
+                  <th>Primary AI Investment Focus</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Amazon (AWS)</strong></td>
+                  <td class="mono" style="color:var(--color-accent)">~$100B+</td>
+                  <td>Trainium/Gabriel chips, NVIDIA GPUs, custom silicon, data centers</td>
+                </tr>
+                <tr>
+                  <td><strong>Microsoft (Azure)</strong></td>
+                  <td class="mono" style="color:var(--color-accent)">~$80B+</td>
+                  <td>OpenAI partnership, NVIDIA GB200 NVL72, Azure AI infrastructure</td>
+                </tr>
+                <tr>
+                  <td><strong>Google (GCP)</strong></td>
+                  <td class="mono" style="color:var(--color-accent)">~$75B+</td>
+                  <td>TPU v5/v6, NVIDIA H100/H200, Gemini AI infrastructure</td>
+                </tr>
+                <tr>
+                  <td><strong>Meta</strong></td>
+                  <td class="mono" style="color:var(--color-accent)">~$65B+</td>
+                  <td>Llama models, NVIDIA GPU clusters, AI recommendation systems</td>
+                </tr>
+                <tr>
+                  <td><strong>Oracle</strong></td>
+                  <td class="mono" style="color:var(--color-accent)">~$12B+</td>
+                  <td>Gen2 Cloud, OCI GPU clusters, NVIDIA DGX</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="info-box info" style="margin-top:1rem">
+            <strong>Combined hyperscaler AI capex:</strong> Approximately <strong>$332B+</strong> in 2025–2026. This massive spending wave is the primary demand driver for AI server manufacturers like Supermicro, Dell, and HPE.
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">NVIDIA GPU Supply Landscape</h3>
+          <p class="text-muted text-sm" style="margin-bottom:1rem">NVIDIA Blackwell (B200, B300, GB200 NVL72) allocation remains constrained through 2025–2026. GPU supply allocation determines which server vendors can fulfill AI infrastructure demand.</p>
+          <div class="grid-3">
+            <div class="fin-stat">
+              <div class="value" style="color:var(--color-accent)">Constrained</div>
+              <div class="label">Blackwell Supply</div>
+              <div class="sub">Allocation-limited through 2026</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">H100/H200</div>
+              <div class="label">Current Ramp</div>
+              <div class="sub">Supply improving but still tight</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">Very Deep</div>
+              <div class="label">SMCI Partnership</div>
+              <div class="sub">Preferred partner status (advantage)</div>
+            </div>
+          </div>
+          <p class="text-sm text-muted" style="margin-top:1rem">Supermicro's deep NVIDIA partnership is a competitive advantage <em>when supply is available</em>. As NVIDIA ramps Blackwell production, Supermicro's preferred partner status positions it for continued AI server leadership — but Dell's growing NVIDIA DGX relationship is a watch item.</p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-bottom:1rem">Key Market Growth Drivers</h3>
+          <ul style="list-style:none;padding:0">
+            <li class="text-sm text-muted" style="padding:0.4rem 0;border-bottom:1px solid var(--color-border)">🚀 <strong>Hyperscaler capex surge</strong> — $332B+ combined Microsoft, Google, Meta, Amazon, Oracle spending on AI infrastructure in 2025–2026</li>
+            <li class="text-sm text-muted" style="padding:0.4rem 0;border-bottom:1px solid var(--color-border)">🚀 <strong>NVIDIA Blackwell supply ramping</strong> — next-gen GPU platforms driving server refresh cycles</li>
+            <li class="text-sm text-muted" style="padding:0.4rem 0;border-bottom:1px solid var(--color-border)">🚀 <strong>Enterprise AI adoption</strong> — AI deployment expanding beyond tech sector into financial services, healthcare, manufacturing</li>
+            <li class="text-sm text-muted" style="padding:0.4rem 0;border-bottom:1px solid var(--color-border)">🚀 <strong>Sovereign AI</strong> — governments worldwide investing in national AI infrastructure</li>
+            <li class="text-sm text-muted" style="padding:0.4rem 0">🚀 <strong>Edge AI</strong> — distributed AI computing infrastructure for 5G, IoT, autonomous systems</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- ========== BALANCE SHEET ========== -->
+      <div id="tab-balance" class="tab-panel">
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Balance Sheet — Q2 FY2026 (As of Dec 31, 2025)</h3>
+          <div class="financials-highlight">
+            <div class="fin-stat">
+              <div class="value">$4.1B</div>
+              <div class="label">Cash &amp; Equivalents</div>
+              <div class="sub">Strong cash position</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">$4.9B</div>
+              <div class="label">Total Debt + Convertibles</div>
+              <div class="sub">Includes term loans, notes</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">$0.8B</div>
+              <div class="label">Net Debt</div>
+              <div class="sub">Debt − Cash</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">$28.0B</div>
+              <div class="label">Total Assets</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">$21.0B</div>
+              <div class="label">Total Liabilities</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">$7.0B</div>
+              <div class="label">Shareholders' Equity</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Cash Flow Analysis</h3>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Period</th>
+                  <th>Operating Cash Flow</th>
+                  <th>Context</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Q1 FY2026 (ended Sep 2025)</td>
+                  <td class="mono danger">−$918M</td>
+                  <td class="text-sm text-muted">Working capital buildup for anticipated demand surge</td>
+                </tr>
+                <tr>
+                  <td>Q2 FY2026 (ended Dec 2025)</td>
+                  <td class="mono danger">−$24M</td>
+                  <td class="text-sm text-muted">Slightly negative as working capital remained elevated</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="info-box warning" style="margin-top:1rem">
+            <strong>Cash Flow Concern:</strong> Negative operating cash flow in H1 FY2026 reflects significant working capital investment as the company scales for the massive anticipated demand surge. This is a watch item — if revenue doesn't materialize as guided, the company could face liquidity pressure.
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Debt &amp; Leverage</h3>
+          <div class="financials-highlight" style="margin-bottom:1rem">
+            <div class="fin-stat">
+              <div class="value" style="font-size:1.25rem">69.8%</div>
+              <div class="label">Debt-to-Equity Ratio</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">~$0.8B</div>
+              <div class="label">Net Debt</div>
+              <div class="sub" style="color:var(--color-accent)">Low leverage</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">~0.7x</div>
+              <div class="label">Net Debt / EBITDA</div>
+              <div class="sub">Manageable</div>
+            </div>
+          </div>
+          <p class="text-sm text-muted">The company's leverage ratio of ~69.8% is moderate for a high-growth server company. The $4.1B cash balance against $4.9B total debt suggests manageable debt levels, but the working capital intensity of hypergrowth is a risk if revenue targets are missed.</p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-bottom:1rem">Margin Trends</h3>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Metric</th>
+                  <th>FY2025</th>
+                  <th>TTM (Q2 FY2026)</th>
+                  <th>Trend</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Gross Margin (approx.)</td>
+                  <td>~15–17%</td>
+                  <td>—</td>
+                  <td>Stable</td>
+                </tr>
+                <tr>
+                  <td>Operating Margin (approx.)</td>
+                  <td>~4–5%</td>
+                  <td>—</td>
+                  <td>Stable</td>
+                </tr>
+                <tr>
+                  <td>Net Margin</td>
+                  <td class="mono">~4.5%</td>
+                  <td class="mono danger">~3.1%</td>
+                  <td class="danger">⚠️ Compressing</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="info-box warning" style="margin-top:1rem">
+            <strong>Margin Compression Alert:</strong> Net margin has declined from ~6.9% a year earlier to 3.1% TTM (as of Q2 FY2026). Competitive pricing pressure on large AI infrastructure deals is compressing profitability. Gross margin recovery is a key watch item.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ========== CUSTOMER CONCENTRATION ========== -->
+      <div id="tab-customers" class="tab-panel">
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Customer Concentration Risk</h3>
+          <p style="color:var(--color-muted);margin-bottom:1rem">As a major AI server supplier to hyperscale data center operators, Supermicro has significant exposure to the largest cloud computing companies. Revenue concentration risk is elevated if any single customer represents a large percentage of total revenue.</p>
+        </div>
+
+        <div class="info-box warning" style="margin-bottom:1.5rem">
+          <strong>Known Hyperscaler Relationships:</strong> Supermicro's AI server customers include the major US hyperscalers (Microsoft/Azure, Google/GCP, Meta, Amazon/AWS, Oracle). The company's growth is heavily tied to these customers' AI infrastructure capex decisions. If one or more major customers shift orders to competitors (e.g., Dell), revenue could be materially impacted.
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h4 style="margin-bottom:0.75rem">Key Risk Factors</h4>
+          <ul style="list-style:none;padding:0">
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">⚠️ <strong>Customer dual-sourcing</strong> — Hyperscalers increasingly split orders between multiple vendors, reducing Supermicro's share of any given customer's wallet</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">⚠️ <strong>Dell competitive wins</strong> — Dell cited as beating Supermicro on AI server platform timing for some customers</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">⚠️ <strong>Customer self-building</strong> — Some hyperscalers (Google TPU, Amazon Trainium) increasingly building custom AI silicon servers in-house</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0">⚠️ <strong>Large deal concentration</strong> — Q2 FY2026 $12.68B revenue suggests large individual deal sizes that can create quarter-to-quarter volatility</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h4 style="margin-bottom:0.75rem">Mitigating Factors</h4>
+          <ul style="list-style:none;padding:0">
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ <strong>Diversified GPU partnerships</strong> — NVIDIA, AMD, and Intel relationships reduce single-supplier dependency for customers</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ <strong>Multi-year supply agreements</strong> — Large AI infrastructure deals typically span multiple quarters/years</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0">✅ <strong>Total IT Solutions</strong> — Servers + storage + networking integration creates switching costs for customers</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- ========== SHORT-SELLER CONTEXT ========== -->
+      <div id="tab-hindenburg" class="tab-panel">
+
+        <div class="info-box danger" style="margin-bottom:1.5rem">
+          <strong>Context Note:</strong> This section documents the short-seller allegations and regulatory inquiries that have significantly impacted SMCI's stock price and institutional investor sentiment. The DOJ and SEC matters remain unresolved as of March 2026.
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Hindenburg Research Report</h3>
+          <div class="flex justify-between items-center" style="margin-bottom:1rem">
+            <span class="tag tag-risk">August 27, 2024</span>
+            <span class="tag" style="background:var(--color-surface);color:var(--color-muted)">Hindenburg (defunct)</span>
+          </div>
+          <p style="color:var(--color-muted);margin-bottom:1rem">Hindenburg Research published a detailed short report alleging "glaring accounting flags, evidence of undisclosed related party transactions, and fresh evidence of accounting manipulation" at Supermicro.</p>
+          <p style="color:var(--color-muted);margin-bottom:1rem">Key allegations included:</p>
+          <ul style="list-style:none;padding:0;margin-bottom:1rem">
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• Improper revenue recognition practices</li>
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• undisclosed related party transactions</li>
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• Circumvention of internal accounting controls</li>
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• Channel stuffing or premature revenue recognition</li>
+          </ul>
+          <div class="info-box warning">
+            <strong>Note:</strong> Hindenburg Research shut down operations in 2024 after publishing its Supermicro report. Short-seller reports are often aggressive and may contain inaccuracies or overstated claims. However, the allegations prompted regulatory scrutiny that has not been fully resolved.
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">DOJ &amp; SEC Subpoenas</h3>
+          <div class="flex justify-between items-center" style="margin-bottom:1rem">
+            <span class="tag tag-risk">September 26, 2024</span>
+            <span class="tag tag-risk">Unresolved</span>
+          </div>
+          <p style="color:var(--color-muted);margin-bottom:1rem">The Department of Justice (DOJ) and Securities and Exchange Commission (SEC) subpoenaed Supermicro for documents following the publication of Hindenburg's allegations. The company disclosed these requests in a February 2025 SEC filing.</p>
+          <p style="color:var(--color-muted);margin-bottom:1rem"><strong>As of March 2026, the status of these inquiries remains unresolved.</strong> The company has stated it is cooperating with the investigations. Potential outcomes include:</p>
+          <ul style="list-style:none;padding:0">
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">🟢 <strong>No action</strong> — Regulators find no sufficient evidence to pursue charges (positive for stock)</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">🟡 <strong>Civil charges / settlements</strong> — SEC civil actions, monetary penalties, consent decrees (moderately negative)</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0">🔴 <strong>Criminal charges</strong> — DOJ criminal investigation leading to charges against the company or individuals (most negative)</li>
+          </ul>
+          <div class="info-box danger" style="margin-top:1rem">
+            <strong>Critical Risk:</strong> An adverse DOJ/SEC resolution could result in substantial fines, criminal charges against executives, and potential Nasdaq delisting — making the bear case scenario a realistic possibility.
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-bottom:1rem">EY Resignation Connection</h3>
+          <p style="color:var(--color-muted);margin-bottom:1rem">Ernst &amp; Young (EY) resigned as Supermicro's auditor on October 24, 2024, citing concerns about internal controls, board independence, and accounting practices — two months after Hindenburg published its report.</p>
+          <p style="color:var(--color-muted);margin-bottom:1rem"><strong>Key points:</strong></p>
+          <ul style="list-style:none;padding:0">
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• EY's resignation was highly unusual for a company Supermicro's size</li>
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• Supermicro stated it disagreed with EY's decision</li>
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• Company does not expect matters raised by EY to result in restatement</li>
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• BDO USA, LLP appointed as successor auditor</li>
+            <li class="text-sm text-muted" style="padding:0.25rem 0">• Special Committee of the Board conducted investigation into governance matters</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- ========== ESG ========== -->
+      <div id="tab-esg" class="tab-panel">
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Environmental — ISO 14001:2015 Certification</h3>
+          <div class="info-box success" style="margin-bottom:1rem">
+            <strong>ISO 14001:2015 Certified</strong> — Supermicro holds environmental management system certification for its San Jose, California manufacturing operations. Certification validity: until March 21, 2026 (renewal required).
+          </div>
+          <p class="text-sm text-muted" style="margin-bottom:1rem">The ISO 14001:2015 certification covers Supermicro's design, manufacturing, and related operations for server and storage products at its Silicon Valley facilities. The certification demonstrates commitment to environmental management practices.</p>
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Liquid Cooling &amp; Energy Efficiency</h3>
+          <p class="text-sm text-muted" style="margin-bottom:1rem">Supermicro has positioned its liquid cooling technology as an environmental and efficiency advantage for high-density AI/GPU deployments:</p>
+          <ul style="list-style:none;padding:0">
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">💧 <strong>Direct Liquid Cooling (DLC)</strong> — Supermicro's DLC solutions for NVIDIA HGX B200 and GB200 NVL72 systems significantly reduce energy consumption vs. traditional air cooling in AI factory environments</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">⚡ <strong>Power efficiency</strong> — Energy-efficient server design is a core product differentiator, particularly for hyperscaler customers with massive data center footprints</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0">🌱 <strong>Campus 3 expansion</strong> — Manufacturing expansion includes modernized facilities designed for efficient production of liquid-cooled systems at scale</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-bottom:1rem">Governance Context (ESG)</h3>
+          <div class="info-box danger">
+            <strong>Governance Concerns:</strong> As documented in the Controversies section, Supermicro faces significant governance challenges including the EY resignation, ongoing DOJ/SEC inquiries, and accounting leadership changes. These governance issues represent a material ESG risk factor for institutional investors with ESG mandates.
+          </div>
+          <p class="text-sm text-muted" style="margin-top:1rem">For investors with environmental or social focus, Supermicro's liquid cooling technology and US manufacturing are positives. However, governance concerns are a significant barrier for ESG-mandated institutional investors, potentially limiting the stock's institutional buyer pool.</p>
+        </div>
+
+      </div>
+
+      <!-- ========== OPTIONS MARKET ========== -->
+      <div id="tab-options" class="tab-panel">
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Short Selling Metrics</h3>
+          <div class="financials-highlight">
+            <div class="fin-stat">
+              <div class="value danger">16.52%</div>
+              <div class="label">Short Float %</div>
+              <div class="sub">Elevated — significant bearish bets</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value danger">85.08M</div>
+              <div class="label">Short Interest (shares)</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">~5–8 days</div>
+              <div class="label">Days to Cover</div>
+              <div class="sub">Based on avg trading volume</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value warning">&gt;1.0</div>
+              <div class="label">Put/Call Ratio</div>
+              <div class="sub">Elevated put buying</div>
+            </div>
+          </div>
+          <div class="info-box warning" style="margin-top:1rem">
+            <strong>High Short Interest:</strong> 16.52% short float reflects elevated risk perception following the 2024 controversies. Short sellers are betting against the stock. If Supermicro delivers clean quarters and the DOJ/SEC matter resolves favorably, a short squeeze could drive significant upside.
+          </div>
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem">
+          <h3 style="margin-bottom:1rem">Implied Volatility &amp; Options Pricing</h3>
+          <div class="grid-3">
+            <div class="fin-stat">
+              <div class="value warning">50–70%</div>
+              <div class="label">Implied Volatility Range</div>
+              <div class="sub">Elevated vs. sector avg</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">High</div>
+              <div class="label">Put Premium</div>
+              <div class="sub">Puts more expensive than calls</div>
+            </div>
+            <div class="fin-stat">
+              <div class="value">Notable</div>
+              <div class="label">Options Volume</div>
+              <div class="sub">Concentrated on earnings dates</div>
+            </div>
+          </div>
+          <p class="text-sm text-muted" style="margin-top:1rem">Elevated IV reflects uncertainty around ongoing DOJ/SEC inquiries and margin recovery. Put options are more expensive than usual relative to calls, reflecting demand for downside protection and/or speculative short positions. Notable options activity typically occurs around earnings dates.</p>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-bottom:1rem">Short Squeeze Potential</h3>
+          <p style="color:var(--color-muted);margin-bottom:1rem">High short interest (16.52% of float, 85M shares) creates potential short squeeze dynamics if Supermicro delivers:</p>
+          <ul style="list-style:none;padding:0;margin-bottom:1rem">
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ <strong>Clean Q3 FY2026 earnings beat</strong> (≥$12.3B revenue, EPS beat)</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ <strong>BDO clean audit opinion</strong> on FY2026 financials</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0;border-bottom:1px solid var(--color-border)">✅ <strong>DOJ/SEC inquiry closed</strong> with no adverse findings</li>
+            <li class="text-sm text-muted" style="padding:0.3rem 0">✅ <strong>Gross margin expansion</strong> above 16% in upcoming quarters</li>
+          </ul>
+          <div class="info-box success">
+            <strong>Upside Scenario:</strong> A short squeeze, combined with positive fundamental catalysts, could drive SMCI significantly above analyst price targets in the near term. 85 million shares sold short would need to be bought back, potentially creating significant buying pressure.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>SMCI Research — Super Micro Computer, Inc. (NASDAQ: SMCI)</p>
+      <p class="disclaimer">This research website is for informational and educational purposes only. Not investment advice.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.initTabs) initTabs();
+      if (window.initScrollAnimations) initScrollAnimations();
+    });
+  </script>
+</body>
+</html>
